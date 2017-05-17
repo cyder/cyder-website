@@ -150,6 +150,28 @@ header nav a img {
   padding-top: 52px;
 }
 
+.content .title {
+  background-color: #353535;
+  color: #ffffff;
+  text-align: center;
+  padding: 16px;
+}
+
+.content .title .border {
+  padding: 50px 0;
+  border: solid #ffffff 2px;
+}
+
+.content .title h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.content .title h2 {
+  margin: 5px 0 0;
+  font-size: 0.8rem;
+}
+
 /**
  * フッター
  */
