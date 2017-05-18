@@ -18,7 +18,7 @@ a {
 
 .clearfix:after {
   content: "";
-  display: table;
+  display: block;
   clear: both;
 }
 
@@ -61,7 +61,7 @@ header nav .menu-button {
   height: 52px;
 }
 
-header nav .menu-button-icon{
+header nav .menu-button-icon {
   display: block;
   position: absolute;
   top: 50%;
@@ -70,10 +70,10 @@ header nav .menu-button-icon{
   height: 2px;
   margin: -1px 0 0 -15px;
   background: #303030;
-  transition: .2s;
+  transition: 0.2s;
 }
 
-header nav .menu-button-icon:before, .menu-button-icon:after{
+header nav .menu-button-icon:before, header nav .menu-button-icon:after {
   display: block;
   content: "";
   position: absolute;
@@ -82,31 +82,31 @@ header nav .menu-button-icon:before, .menu-button-icon:after{
   width: 30px;
   height: 2px;
   background: #303030;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-header nav .menu-button-icon:before{
+header nav .menu-button-icon:before {
   margin-top: -11px;
 }
 
-header nav .menu-button-icon:after{
+header nav .menu-button-icon:after {
   margin-top: 9px;
 }
 
-nav.open .menu-button-icon{
+nav.open .menu-button-icon {
   background: transparent;
 }
 
-nav.open .menu-button-icon:before, nav.open .menu-button-icon:after{
+nav.open .menu-button-icon:before, nav.open .menu-button-icon:after {
   margin-top: 0;
 }
 
-nav.open .menu-button-icon:before{
+nav.open .menu-button-icon:before {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
 
-nav.open .menu-button-icon:after{
+nav.open .menu-button-icon:after {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
 }
