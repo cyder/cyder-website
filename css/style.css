@@ -18,6 +18,14 @@ a {
   text-decoration: none;
 }
 
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
 .clearfix:after {
   content: "";
   display: block;
@@ -208,8 +216,11 @@ footer a {
   color: #ffffff;
 }
 
-footer .page-top img {
+footer .page-top {
   margin: 20px 0 10px;
+}
+
+footer .page-top img {
   height: 30px;
 }
 
