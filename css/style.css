@@ -251,6 +251,24 @@ footer .sns li img {
   height: 32px;
 }
 
+footer .sns a {
+  display: inline-block;
+}
+
+footer .sns a.twitter {
+  background: url("../images/twitter-colored.png") no-repeat;
+  background-size: contain;
+}
+
+footer .sns a.facebook {
+  background: url("../images/facebook-colored.png") no-repeat;
+  background-size: contain;
+}
+
+footer .sns li img:hover {
+  opacity: 0;
+}
+
 footer .copyright {
   font-size: 0.8rem;
   color: #A3A3A3;
