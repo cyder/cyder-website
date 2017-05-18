@@ -4,6 +4,8 @@
 
 body {
   background-color: #f4f4f4;
+  font-family: "Helvetica Neue", 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',"メイリオ", sans-serif;;
+  font-weight: 400;
 }
 
 ul {
@@ -67,8 +69,8 @@ header nav .menu-button-icon {
   top: 50%;
   left: 50%;
   width: 30px;
-  height: 2px;
-  margin: -1px 0 0 -15px;
+  height: 3px;
+  margin: -1.5px 0 0 -15px;
   background: #303030;
   transition: 0.2s;
 }
@@ -80,17 +82,17 @@ header nav .menu-button-icon:before, header nav .menu-button-icon:after {
   top: 50%;
   left: 0;
   width: 30px;
-  height: 2px;
+  height: 3px;
   background: #303030;
   transition: 0.3s;
 }
 
 header nav .menu-button-icon:before {
-  margin-top: -11px;
+  margin-top: -11.5px;
 }
 
 header nav .menu-button-icon:after {
-  margin-top: 9px;
+  margin-top: 8.5px;
 }
 
 nav.open .menu-button-icon {
@@ -231,7 +233,7 @@ footer li {
 }
 
 footer .site-map li:not(:last-child) {
-  border-right: solid #ffffff 1px;
+  border-right: solid #A3A3A3 2px;
 }
 
 footer .sns li img {
@@ -240,6 +242,6 @@ footer .sns li img {
 
 footer .copyright {
   font-size: 0.8rem;
-  color: #f4f4f4;
+  color: #A3A3A3;
   padding: 10px 0 30px;
 }
