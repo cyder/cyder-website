@@ -255,12 +255,12 @@ footer .sns a {
   display: inline-block;
 }
 
-footer .sns a.twitter {
+footer .sns a.twitter:hover {
   background: url("../images/twitter-colored.png") no-repeat;
   background-size: contain;
 }
 
-footer .sns a.facebook {
+footer .sns a.facebook:hover {
   background: url("../images/facebook-colored.png") no-repeat;
   background-size: contain;
 }
