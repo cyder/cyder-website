@@ -58,6 +58,7 @@ section.member .profile .icon {
   width: 140px;
   height: 140px;
   margin: 0 auto;
+  background-size: cover;
 }
 
 section.member .profile h3 {
