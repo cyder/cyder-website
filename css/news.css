@@ -24,14 +24,18 @@ article a:hover > .photo > .news-read-more {
   text-align: center;
   line-height: 176px;
   font-size: 1.8rem;
-  border: 2px solid #ffffff;
+  padding: 20px;
+  background-color: rgba(251,176,59,0.7);
 }
 
 article .photo {
-  height: 180px;
+  height: 220px;
   background-color: #353535;
   background-size: cover;
-  padding: 20px;
+}
+
+article .photo .border {
+  border: 2px solid #ffffff;
 }
 
 article .news-read-more {
