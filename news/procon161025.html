@@ -8,46 +8,56 @@
     <meta name="description" content="Cyder">
     <meta name="author" content="Cyder">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
   </head>
 
   <body>
     <header>
-      <h1><a href="../"><img src="../images/logo.png" alt="Cyder"></a></h1>
+      <h1><a href="../"><img src="../images/logo.png" alt="Cyder" class="title"></a></h1>
       <nav>
+        <div class="menu-button"><span class="menu-button-icon"></span></div>
         <ul>
           <li><a href="../about">ABOUT</a></li>
           <li><a href="../news">NEWS</a></li>
           <li><a href="../product">PRODUCT</a></li>
           <li><a href="../contact">CONTACT</a></li>
-          <li><a href="../"><img src="../images/twitter.png" alt="twitter"></a></li>
-          <li><a href="../"><img src="../images/facebook.png" alt="facebook"></a></li>
+          <li><a href="../"><img src="../images/twitter-white.png" alt="twitter"></a></li>
+          <li><a href="../"><img src="../images/facebook-white.png" alt="facebook"></a></li>
         </ul>
       </nav>
     </header>
 
     <div class="content">
       <div class="title">
-        <h1>NEWS</h1>
-        <h2>新着情報</h2>
+        <div class="border">
+          <h1>NEWS</h1>
+          <h2>新着情報</h2>
+        </div>
       </div>
       <div class="current-place">
-        <a href="../">TOP</a> &gt; <a href="../news">NEWS</a> &gt; 第27回全国高等専門学校プログラミングコンテストの課題部門にて特別賞受賞しました。
+        <a href="../">TOP</a> &gt; <a href="../news">NEWS</a> &gt; <span class="current">第27回全国高等専門学校プログラミングコンテストの課題部門にて特別賞受賞しました。</span>
       </div>
     </div>
 
     <footer>
-      <div class="page-top"></div>
-      <ul>
-        <li><a href="../about">ABOUT</a></li>
-        <li><a href="../news">NEWS</a></li>
-        <li><a href="../product">PRODUCT</a></li>
-        <li><a href="../contact">CONTACT</a></li>
-      </ul>
-      <ul>
-        <li><a href="../"><img src="../images/twitter.png" alt="twitter"></a></li>
-        <li><a href="../"><img src="../images/facebook.png" alt="facebook"></a></li>
-      </ul>
-      <div class="copyright">&copy; 2017 <a href="../">Cyder</a></div>
+      <button class="page-top"><img src="../images/page-top.png" alt="Page Top"></button>
+      <div class="clearfix site-map">
+        <ul>
+          <li><a href="../about">ABOUT</a></li>
+          <li><a href="../news">NEWS</a></li>
+          <li><a href="../product">PRODUCT</a></li>
+          <li><a href="../contact">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="clearfix">
+        <ul class="sns">
+          <li><a class="twitter" href="../"><img src="../images/twitter-white.png" alt="twitter"></a></li>
+          <li><a class="facebook" href="../"><img src="../images/facebook-white.png" alt="facebook"></a></li>
+        </ul>
+      </div>
+      <div class="copyright">&copy; 2017 Cyder</div>
     </footer>
   </body>
 </html>
