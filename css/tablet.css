@@ -1,0 +1,90 @@
+@media only screen and (min-width: 480px) {
+html {
+  font-size: 18px;
+}
+
+header nav a {
+  line-height: 80px;
+}
+
+.content .title .border {
+  padding: 70px 0;
+}
+
+.content .current-place {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+
+footer .page-top img {
+  height: 40px;
+}
+
+footer li {
+  font-size: 0.8rem;
+}
+}
+
+@media only screen and (min-width: 768px) {
+header h1 .title {
+  margin: 0 12px;
+}
+
+header nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+header nav ul {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  height: 1.2rem;
+  padding: 0 10px;
+}
+
+header nav li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+header nav li:not(:nth-last-child(-n+3)) {
+  border-right: solid #a3a3a3 2px;
+}
+
+header nav a {
+  color: #353535;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+}
+
+header nav a.twitter {
+  background: url("../images/twitter-gray.png") no-repeat;
+  background-size: contain;
+}
+
+header nav a.facebook {
+  background: url("../images/facebook-gray.png") no-repeat;
+  background-size: contain;
+}
+
+header nav li img {
+  opacity: 0;
+  height: 1.2rem;
+}
+
+header nav .menu-button {
+  display: none;
+}
+
+.content .title .border {
+  padding: 80px 0;
+}
+}
+
