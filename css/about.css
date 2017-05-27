@@ -1,0 +1,74 @@
+.content .title {
+  background-image: url("../images/about.jpg");
+  background-size: cover;
+}
+
+section {
+  padding: 30px 2% 40px;
+}
+
+section h2 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+section h2:after {
+  display: block;
+  content: "";
+  background: #303030;
+  width: 40px;
+  height: 4px;
+  margin: 15px auto;
+}
+
+section p {
+  margin: 0 10%;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+section.vision h3 {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+section.vision h3 span {
+  color: #fbb03b;
+}
+
+section.project {
+  color: #f4f4f4;
+  background-color: #303030;
+}
+
+section.project h2::after {
+  background: #f4f4f4;
+}
+
+section.member .profile {
+  float: left;
+  width: 50%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+section.member .profile .icon {
+  background-color: #303030;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+section.member .profile h3 {
+  font-size: 1rem;
+  margin: 4px 0;
+}
+
+section.member .profile h4 {
+  font-size: 0.5rem;
+  line-height: 1rem;
+  color: #a3a3a3;
+  margin: 4px 0 0;
+}
