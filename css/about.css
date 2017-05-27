@@ -19,7 +19,7 @@ section h2:after {
   background: #303030;
   width: 40px;
   height: 4px;
-  margin: 2px auto;
+  margin: 15px auto;
 }
 
 section p {
@@ -63,12 +63,12 @@ section.member .profile .icon {
 
 section.member .profile h3 {
   font-size: 1rem;
-  margin: 0;
+  margin: 4px 0;
 }
 
 section.member .profile h4 {
   font-size: 0.5rem;
   line-height: 1rem;
   color: #A3A3A3;
-  margin: 5px 0 0;
+  margin: 4px 0 0;
 }
