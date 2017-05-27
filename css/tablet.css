@@ -44,16 +44,17 @@ header nav ul {
 
 header nav li {
   display: inline-block;
-  padding: 0 5px;
 }
 
-header nav li:not(:nth-last-child(-n+3)) {
+header nav li:nth-child(-n+3) {
   border-right: solid #a3a3a3 2px;
 }
 
 header nav a {
+  display: inline;
   color: #353535;
   font-size: 0.8rem;
+  padding: 10px 5px;
   line-height: 0.8rem;
 }
 
