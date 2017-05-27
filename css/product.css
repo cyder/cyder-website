@@ -1,0 +1,36 @@
+article {
+  background-color: #353535;
+  color: #ffffff;
+  padding: 20px 20%;
+  text-align: center;
+}
+
+article h2 {
+  margin: 40px 0 0;
+  font-size: 2rem;
+}
+
+article h2 img {
+  width: 120px;
+}
+
+article p {
+  margin: 50px 0;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+
+article a {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+article a:hover {
+  background-color: rgba(255,255,255,0.25);
+}
+
+article .coming-soon {
+  font-size: 1.2rem;
+}
