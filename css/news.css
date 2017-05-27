@@ -15,7 +15,7 @@ article a {
 }
 
 article a:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.12), 0 10px 10px rgba(0,0,0,0.1);
 }
 
 article a:hover .news-read-more {
@@ -23,7 +23,8 @@ article a:hover .news-read-more {
   display: block;
   text-align: center;
   line-height: 176px;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
+  font-weight: bold;
   padding: 20px;
   background-color: rgba(251,176,59,0.7);
 }
