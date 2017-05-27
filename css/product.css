@@ -1,8 +1,10 @@
 article {
   background-color: #353535;
   color: #ffffff;
-  padding: 20px 20%;
+  padding: 20px 20% 50px;
   text-align: center;
+  background-size: cover;
+  background-position: center center;
 }
 
 article h2 {
@@ -33,4 +35,12 @@ article a:hover {
 
 article .coming-soon {
   font-size: 1.2rem;
+}
+
+article.aktiva-v2 {
+  background-image: url(../images/aktiva-v2-gray.png);
+}
+
+article.aktiva {
+  background-image: url(../images/aktiva-gray.jpg);
 }
