@@ -8,46 +8,105 @@
     <meta name="description" content="Cyder">
     <meta name="author" content="Cyder">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/about.css">
   </head>
 
   <body>
     <header>
-      <h1><a href="../"><img src="../images/logo.png" alt="Cyder"></a></h1>
-      <nav>
+      <h1><a href="../"><img src="../images/logo.png" alt="Cyder" class="title"></a></h1>
+      <nav id="nav">
+        <button id="menu-button" class="menu-button"><span class="menu-button-icon"></span></button>
         <ul>
           <li><a href="../about">ABOUT</a></li>
           <li><a href="../news">NEWS</a></li>
           <li><a href="../product">PRODUCT</a></li>
           <li><a href="../contact">CONTACT</a></li>
-          <li><a href="../"><img src="../images/twitter.png" alt="twitter"></a></li>
-          <li><a href="../"><img src="../images/facebook.png" alt="facebook"></a></li>
+          <li><a href="../"><img src="../images/twitter-white.png" alt="twitter"></a></li>
+          <li><a href="../"><img src="../images/facebook-white.png" alt="facebook"></a></li>
         </ul>
       </nav>
     </header>
 
     <div class="content">
       <div class="title">
-        <h1>ABOUT</h1>
-        <h2>団体概要</h2>
+        <div class="border">
+          <h1>ABOUT</h1>
+          <h2>団体概要</h2>
+        </div>
       </div>
       <div class="current-place">
-        <a href="../">TOP</a> &gt; ABOUT
+        <a href="../">TOP</a> &gt; <span class="current">ABOUT</span>
       </div>
+      <section class="vision">
+        <h2>VISION</h2>
+        <h3>「もっと日常に<span>わくわく</span>を。」</h3>
+        <p>
+          Cyderは独自サービスでに企業を目指す学生グループです。
+          テクノロジーと身近なエンターテイメントを組み合わせることによって、人生に新たな楽しみをもたらします。
+        </p>
+      </section>
+      <section class="project">
+        <h2>PROJECT</h2>
+        <p>
+          私たちは最初に、最近流行しつつある「ダンス」に注目しました。
+          ダンスとは本来、老若男女問わず気軽に楽しめるものです。
+          ダンスに興味があるのにも関わらず、気軽に練習する環境がなく、ダンスを遠い存在だと感じている人は少なくありません。
+          私たちは、誰もがダンスを踊って楽しめる世界を目指し、一般向けダンス支援システムの開発に取り組んでいます。
+        </p>
+      </section>
+      <section class="member clearfix">
+        <h2>MEMBER</h2>
+        <div class="profile">
+          <div class="icon" style="background-image: url('../images/profile/atsushi.jpg');"></div>
+          <h4>代表</h4>
+          <h3>森 篤史</h3>
+        </div>
+        <div class="profile">
+          <div class="icon" style="background-image: url('../images/profile/ruriko.jpg');"></div>
+          <h4>企画 / 広報</h4>
+          <h3>渡邉 るりこ</h3>
+        </div>
+        <div class="profile">
+          <div class="icon" style="background-image: url('../images/profile/sho.jpg');"></div>
+          <h4>企画 / 開発（エンジニア）</h4>
+          <h3>多田 捷</h3>
+        </div>
+        <div class="profile">
+          <div class="icon" style="background-image: url('../images/profile/daiki.jpg');"></div>
+          <h4>企画 / 広報 / 経理</h4>
+          <h3>西原 大貴</h3>
+        </div>
+        <div class="profile">
+          <div class="icon" style="background-image: url('../images/profile/yuya.jpg');"></div>
+          <h4>開発（デザイナ） / 広報</h4>
+          <h3>芝崎 優也</h3>
+        </div>
+      </section>
     </div>
 
     <footer>
-      <div class="page-top"></div>
-      <ul>
-        <li><a href="../about">ABOUT</a></li>
-        <li><a href="../news">NEWS</a></li>
-        <li><a href="../product">PRODUCT</a></li>
-        <li><a href="../contact">CONTACT</a></li>
-      </ul>
-      <ul>
-        <li><a href="../"><img src="../images/twitter.png" alt="twitter"></a></li>
-        <li><a href="../"><img src="../images/facebook.png" alt="facebook"></a></li>
-      </ul>
-      <div class="copyright">&copy; 2017 <a href="../">Cyder</a></div>
+      <button class="page-top"><img src="../images/page-top.png" alt="Page Top"></button>
+      <div class="clearfix site-map">
+        <ul>
+          <li><a href="../about">ABOUT</a></li>
+          <li><a href="../news">NEWS</a></li>
+          <li><a href="../product">PRODUCT</a></li>
+          <li><a href="../contact">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="clearfix">
+        <ul class="sns">
+          <li><a class="twitter" href="../"><img src="../images/twitter-white.png" alt="twitter"></a></li>
+          <li><a class="facebook" href="../"><img src="../images/facebook-white.png" alt="facebook"></a></li>
+        </ul>
+      </div>
+      <div class="copyright">&copy; 2017 Cyder</div>
     </footer>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
   </body>
 </html>

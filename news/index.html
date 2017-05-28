@@ -8,46 +8,96 @@
     <meta name="description" content="Cyder">
     <meta name="author" content="Cyder">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/news.css">
   </head>
 
   <body>
     <header>
-      <h1><a href="../"><img src="../images/logo.png" alt="Cyder"></a></h1>
-      <nav>
+      <h1><a href="../"><img src="../images/logo.png" alt="Cyder" class="title"></a></h1>
+      <nav id="nav">
+        <button id="menu-button" class="menu-button"><span class="menu-button-icon"></span></button>
         <ul>
           <li><a href="../about">ABOUT</a></li>
           <li><a href="../news">NEWS</a></li>
           <li><a href="../product">PRODUCT</a></li>
           <li><a href="../contact">CONTACT</a></li>
-          <li><a href="../"><img src="../images/twitter.png" alt="twitter"></a></li>
-          <li><a href="../"><img src="../images/facebook.png" alt="facebook"></a></li>
+          <li><a class="twitter" href="../"><img src="../images/twitter-white.png" alt="twitter"></a></li>
+          <li><a href="../"><img src="../images/facebook-white.png" alt="facebook"></a></li>
         </ul>
       </nav>
     </header>
 
     <div class="content">
       <div class="title">
-        <h1>NEWS</h1>
-        <h2>新着情報</h2>
+        <div class="border">
+          <h1>NEWS</h1>
+          <h2>新着情報</h2>
+        </div>
       </div>
       <div class="current-place">
-        <a href="../">TOP</a> &gt; NEWS
+        <a href="../">TOP</a> &gt; <span class="current">NEWS</span>
       </div>
+      <article>
+        <a href="./imaginecup170322.html">
+          <div class="photo" style="background-image: url('../images/news/imaginecup170322.jpg')">
+            <div class="news-read-more"><div class="border">READ MORE</div></div>
+          </div>
+          <h3>ImagineCup2017日本予選大会に出場しました。</h3>
+          <time>2017.3.22</time>
+        </a>
+      </article>
+      <article>
+        <a href="./kosien170309.html">
+          <div class="photo" style="background-image: url('../images/news/kosien170309.jpg')">
+            <div class="news-read-more"><div class="border">READ MORE</div></div>
+          </div>
+          <h3>平成28年度起業家甲子園で特別賞を受賞しました。</h3>
+          <time>2017.3.9</time>
+        </a>
+      </article>
+      <article>
+        <a href="./akashitv161117.html">
+          <div class="photo" style="background-image: url('../images/news/akashitv161117.jpg')">
+            <div class="news-read-more"><div class="border">READ MORE</div></div>
+          </div>
+          <h3>明石ケーブルテレビでAktiva（旧称：舞鏡）が紹介されました。</h3>
+          <time>2016.11.17</time>
+        </a>
+      </article>
+      <article>
+        <a href="./procon161025.html">
+          <div class="photo" style="background-image: url('../images/news/procon161025.jpg')">
+            <div class="news-read-more"><div class="border">READ MORE</div></div>
+          </div>
+          <h3>第27回全国高等専門学校プログラミングコンテストの課題部門にて特別賞受賞しました。</h3>
+          <time>2016.10.25</time>
+        </a>
+      </article>
     </div>
 
     <footer>
-      <div class="page-top"></div>
-      <ul>
-        <li><a href="../about">ABOUT</a></li>
-        <li><a href="../news">NEWS</a></li>
-        <li><a href="../product">PRODUCT</a></li>
-        <li><a href="../contact">CONTACT</a></li>
-      </ul>
-      <ul>
-        <li><a href="../"><img src="../images/twitter.png" alt="twitter"></a></li>
-        <li><a href="../"><img src="../images/facebook.png" alt="facebook"></a></li>
-      </ul>
-      <div class="copyright">&copy; 2017 <a href="../">Cyder</a></div>
+      <button class="page-top"><img src="../images/page-top.png" alt="Page Top"></button>
+      <div class="clearfix site-map">
+        <ul>
+          <li><a href="../about">ABOUT</a></li>
+          <li><a href="../news">NEWS</a></li>
+          <li><a href="../product">PRODUCT</a></li>
+          <li><a href="../contact">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="clearfix">
+        <ul class="sns">
+          <li><a class="twitter" href="../"><img src="../images/twitter-white.png" alt="twitter"></a></li>
+          <li><a class="facebook" href="../"><img src="../images/facebook-white.png" alt="facebook"></a></li>
+        </ul>
+      </div>
+      <div class="copyright">&copy; 2017 Cyder</div>
     </footer>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
   </body>
 </html>

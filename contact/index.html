@@ -8,46 +8,89 @@
     <meta name="description" content="Cyder">
     <meta name="author" content="Cyder">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
   </head>
 
   <body>
     <header>
-      <h1><a href="../"><img src="../images/logo.png" alt="Cyder"></a></h1>
-      <nav>
+      <h1><a href="../"><img src="../images/logo.png" alt="Cyder" class="title"></a></h1>
+      <nav id="nav">
+        <button id="menu-button" class="menu-button"><span class="menu-button-icon"></span></button>
         <ul>
-          <li><a href="../about/">ABOUT</a></li>
-          <li><a href="../news/">NEWS</a></li>
-          <li><a href="../product/">PRODUCT</a></li>
-          <li><a href="../contact/">CONTACT</a></li>
-          <li><a href="../"><img src="../images/twitter.png" alt="twitter"></a></li>
-          <li><a href="../"><img src="../images/facebook.png" alt="facebook"></a></li>
+          <li><a href="../about">ABOUT</a></li>
+          <li><a href="../news">NEWS</a></li>
+          <li><a href="../product">PRODUCT</a></li>
+          <li><a href="../contact">CONTACT</a></li>
+          <li><a href="../"><img src="../images/twitter-white.png" alt="twitter"></a></li>
+          <li><a href="../"><img src="../images/facebook-white.png" alt="facebook"></a></li>
         </ul>
       </nav>
     </header>
 
     <div class="content">
       <div class="title">
-        <h1>CONTACT</h1>
-        <h2>お問い合わせ</h2>
+        <div class="border">
+          <h1>CONTACT</h1>
+          <h2>お問い合わせ</h2>
+        </div>
       </div>
       <div class="current-place">
-        <a href="../">TOP</a> &gt; CONTACT
+        <a href="../">TOP</a> &gt; <span class="current">CONTACT</span>
       </div>
+      <p>
+        Cyderは一緒に活動したい学生や協力して頂ける企業を募集しています。お気軽にお問い合わせください。
+      </p>
+      <form>
+        <div>
+          <label for="name">名前＊</label>
+          <input type="text" name="name">
+        </div>
+        <div>
+          <label for="Affiliation">所属</label>
+          <input type="text" name="Affiliation">
+        </div>
+        <div>
+          <label for="mail">メールアドレス＊</label>
+          <input type="text" name="mail">
+        </div>
+        <div>
+          <label for="phone">電話番号</label>
+          <input type="text" name="phone">
+        </div>
+        <div>
+          <label for="inquiry">お問い合わせ内容</label>
+          <textarea name="inquiry" rows="5" cols="40"></textarea>
+        </div>
+        <div>
+          <input type="submit" value="SEND >">
+        </div>
+      </form>
+
     </div>
 
     <footer>
-      <div class="page-top"></div>
-      <ul>
-        <li><a href="../about/">ABOUT</a></li>
-        <li><a href="../news/">NEWS</a></li>
-        <li><a href="../product/">PRODUCT</a></li>
-        <li><a href="../contact/">CONTACT</a></li>
-      </ul>
-      <ul>
-        <li><a href="../"><img src="../images/twitter.png" alt="twitter"></a></li>
-        <li><a href="../"><img src="../images/facebook.png" alt="facebook"></a></li>
-      </ul>
-      <div class="copyright">&copy; 2017 <a href="../">Cyder</a></div>
+      <button class="page-top"><img src="../images/page-top.png" alt="Page Top"></button>
+      <div class="clearfix site-map">
+        <ul>
+          <li><a href="../about">ABOUT</a></li>
+          <li><a href="../news">NEWS</a></li>
+          <li><a href="../product">PRODUCT</a></li>
+          <li><a href="../contact">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="clearfix">
+        <ul class="sns">
+          <li><a class="twitter" href="../"><img src="../images/twitter-white.png" alt="twitter"></a></li>
+          <li><a class="facebook" href="../"><img src="../images/facebook-white.png" alt="facebook"></a></li>
+        </ul>
+      </div>
+      <div class="copyright">&copy; 2017 Cyder</div>
     </footer>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script type="text/javascript" src="../js/form.js"></script>
   </body>
 </html>

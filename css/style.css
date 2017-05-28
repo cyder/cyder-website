@@ -1,0 +1,278 @@
+/**
+ * 共通
+ */
+
+body {
+  background-color: #f4f4f4;
+  font-family: "Helvetica Neue", 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',"メイリオ", sans-serif;;
+  font-weight: 400;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/**
+ * ヘッダ
+ */
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+header h1 {
+  background-color: #ffffff;
+  padding: 10px 0;
+  margin: 0;
+}
+
+header a {
+  width: 100%;
+}
+
+header h1 .title {
+  display: block;
+  margin: 0 auto;
+  height: 32px;
+}
+
+/**
+ * メニューボタン
+ */
+
+header nav .menu-button {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 52px;
+  height: 52px;
+}
+
+header nav .menu-button-icon {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 3px;
+  margin: -1.5px 0 0 -15px;
+  background: #303030;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+}
+
+header nav .menu-button-icon:before, header nav .menu-button-icon:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 30px;
+  height: 3px;
+  background: #303030;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+}
+
+header nav .menu-button-icon:before {
+  margin-top: -11.5px;
+}
+
+header nav .menu-button-icon:after {
+  margin-top: 8.5px;
+}
+
+nav.open .menu-button-icon {
+  background: transparent;
+}
+
+nav.open .menu-button-icon:before, nav.open .menu-button-icon:after {
+  margin-top: 0;
+}
+
+nav.open .menu-button-icon:before {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+nav.open .menu-button-icon:after {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+/**
+ * メニューリスト
+ */
+
+header nav ul {
+  display: none;
+}
+
+nav.open ul {
+  display: block;
+  background-color: rgba(251,176,59,0.9);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  overflow: scroll;
+}
+
+header nav a {
+  display: block;
+  color: #ffffff;
+  font-size: 1.4rem;
+  line-height: 70px;
+}
+
+header nav a:hover{
+  opacity: 0.7;
+}
+
+header nav a img {
+  height: 2rem;
+  vertical-align: middle;
+}
+
+/**
+ * 本体
+ */
+
+.content {
+  padding-top: 52px;
+  color: #353535;
+}
+
+.content .title {
+  background-color: #353535;
+  color: #ffffff;
+  text-align: center;
+  padding: 16px;
+}
+
+.content .title .border {
+  padding: 50px 0;
+  border: solid #ffffff 2px;
+}
+
+.content .title h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.content .title h2 {
+  margin: 5px 0 0;
+  font-size: 0.8rem;
+}
+
+.content .current-place {
+  padding: 5px;
+  font-size: 0.6rem;
+  line-height: 1rem;
+}
+
+.content .current-place a {
+  color: #353535;
+}
+
+.content .current-place .current {
+  color: #fbb03b;
+}
+
+/**
+ * フッター
+ */
+
+footer {
+  background-color: #353535;
+  color: #ffffff;
+  overflow: hidden;
+  text-align: center;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+footer .page-top {
+  margin: 20px 0 10px;
+}
+
+footer .page-top img {
+  height: 30px;
+}
+
+footer a:hover {
+  color: #fbb03b;
+}
+
+footer ul {
+  position: relative;
+  float: left;
+  left: 50%;
+  padding: 15px 0;
+}
+
+footer li {
+  float: left;
+  font-size: 0.6rem;
+  position: relative;
+  left: -50%;
+  padding: 0 12px;
+}
+
+footer .site-map li:not(:last-child) {
+  border-right: solid #a3a3a3 2px;
+}
+
+footer .sns li img {
+  height: 32px;
+}
+
+footer .sns a {
+  display: inline-block;
+}
+
+footer .sns a.twitter:hover {
+  background: url("../images/twitter-colored.png") no-repeat;
+  background-size: contain;
+}
+
+footer .sns a.facebook:hover {
+  background: url("../images/facebook-colored.png") no-repeat;
+  background-size: contain;
+}
+
+footer .sns li img:hover {
+  opacity: 0;
+}
+
+footer .copyright {
+  font-size: 0.8rem;
+  color: #A3A3A3;
+  padding: 10px 0 30px;
+}

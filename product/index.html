@@ -8,46 +8,69 @@
     <meta name="description" content="Cyder">
     <meta name="author" content="Cyder">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
   </head>
 
   <body>
     <header>
-      <h1><a href="../"><img src="../images/logo.png" alt="Cyder"></a></h1>
-      <nav>
+      <h1><a href="../"><img src="../images/logo.png" alt="Cyder" class="title"></a></h1>
+      <nav id="nav">
+        <button id="menu-button" class="menu-button"><span class="menu-button-icon"></span></button>
         <ul>
           <li><a href="../about">ABOUT</a></li>
           <li><a href="../news">NEWS</a></li>
           <li><a href="../product">PRODUCT</a></li>
           <li><a href="../contact">CONTACT</a></li>
-          <li><a href="../"><img src="../images/twitter.png" alt="twitter"></a></li>
-          <li><a href="../"><img src="../images/facebook.png" alt="facebook"></a></li>
+          <li><a href="../"><img src="../images/twitter-white.png" alt="twitter"></a></li>
+          <li><a href="../"><img src="../images/facebook-white.png" alt="facebook"></a></li>
         </ul>
       </nav>
     </header>
 
     <div class="content">
       <div class="title">
-        <h1>PRODUCT</h1>
-        <h2>製品紹介</h2>
+        <div class="border">
+          <h1>PRODUCT</h1>
+          <h2>製品紹介</h2>
+        </div>
       </div>
       <div class="current-place">
-        <a href="../">TOP</a> &gt; PRODUCT
+        <a href="../">TOP</a> &gt; <span class="current">PRODUCT</span>
       </div>
+      <article>
+        <h2>Aktiva V2</h2>
+        <p>誰でも簡単に流行曲が作れるサービス。（誠意開発中）</p>
+        <div class="coming-soon">Coming soon...</div>
+      </article>
+      <article>
+        <h2><img src="../images/aktiva-logo-white.png" alt="aktiva"></h2>
+        <p>ダンスに必須な機能を全て集約した、ARスマートミラー。</p>
+        <a href="./aktiva.html">READ MORE</a>
+      </article>
     </div>
 
     <footer>
-      <div class="page-top"></div>
-      <ul>
-        <li><a href="../about">ABOUT</a></li>
-        <li><a href="../news">NEWS</a></li>
-        <li><a href="../product">PRODUCT</a></li>
-        <li><a href="../contact">CONTACT</a></li>
-      </ul>
-      <ul>
-        <li><a href="../"><img src="../images/twitter.png" alt="twitter"></a></li>
-        <li><a href="../"><img src="../images/facebook.png" alt="facebook"></a></li>
-      </ul>
-      <div class="copyright">&copy; 2017 <a href="../">Cyder</a></div>
+      <button class="page-top"><img src="../images/page-top.png" alt="Page Top"></button>
+      <div class="clearfix site-map">
+        <ul>
+          <li><a href="../about">ABOUT</a></li>
+          <li><a href="../news">NEWS</a></li>
+          <li><a href="../product">PRODUCT</a></li>
+          <li><a href="../contact">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="clearfix">
+        <ul class="sns">
+          <li><a class="twitter" href="../"><img src="../images/twitter-white.png" alt="twitter"></a></li>
+          <li><a class="facebook" href="../"><img src="../images/facebook-white.png" alt="facebook"></a></li>
+        </ul>
+      </div>
+      <div class="copyright">&copy; 2017 Cyder</div>
     </footer>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
   </body>
 </html>
