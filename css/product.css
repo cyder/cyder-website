@@ -1,5 +1,9 @@
+.content .title {
+  background-image: url("../images/product.jpg");
+  background-size: cover;
+}
+
 article {
-  background-color: #353535;
   color: #ffffff;
   padding: 20px 20% 50px;
   text-align: center;
@@ -27,10 +31,24 @@ article a {
   border: 2px solid #ffffff;
   padding: 10px 20px;
   font-size: 1.2rem;
+  line-height: 1.4rem;
 }
 
 article a:hover {
   background-color: rgba(255,255,255,0.25);
+}
+
+article a::after {
+  content: '';
+  display: inline-block;
+  background-image: url(../images/link-icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1.4rem;
+  width: 1.5rem;
+  vertical-align: bottom;
+  margin: 0 0 0 6px;
 }
 
 article .coming-soon {
