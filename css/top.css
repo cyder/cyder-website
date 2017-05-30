@@ -7,19 +7,20 @@
 }
 
 .read-more {
-  display: block;
-  background-color: #303030;
-  padding: 15px 10px 15px 20px;
-  margin: 40px auto;
+  text-align: center;
 }
 
-.read-more:hover {
+.read-more a:hover {
   background-color: #fbb03b;
 }
 
 .read-more a {
+  display: inline-block;
   color: #ffffff;
   line-height: 1.2rem;
+  background-color: #303030;
+  padding: 15px 10px 15px 20px;
+  margin: 40px auto;
 }
 
 .read-more a::after {
@@ -34,7 +35,6 @@
   vertical-align: bottom;
   margin: 0 0 0 15px;
 }
-
 
 /**
  * トップ部分
