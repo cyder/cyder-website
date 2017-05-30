@@ -1,0 +1,56 @@
+.content {
+  padding: 0;
+}
+
+/**
+ * トップ部分
+ */
+
+.top {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../images/top.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #ffffff;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.top h1 {
+  font-size: 2.4rem;
+  line-height: 4rem;
+}
+
+.top h1 .line{
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.top h1 .line .up {
+  position: relative;
+  top: -5px;
+  color: #fbb03b;
+}
+
+.top h1 .line .down {
+  position: relative;
+  top: 5px;
+  color: #fbb03b;
+}
+
+.top .scroll-down {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 12px;
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+}
+
+.top .scroll-down img {
+  width: 100%;
+}
