@@ -260,11 +260,13 @@ footer .sns a {
 footer .sns a.twitter:hover {
   background: url("../images/twitter-colored.png") no-repeat;
   background-size: contain;
+  background-position: center;
 }
 
 footer .sns a.facebook:hover {
   background: url("../images/facebook-colored.png") no-repeat;
   background-size: contain;
+  background-position: center;
 }
 
 footer .sns li img:hover {
