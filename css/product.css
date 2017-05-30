@@ -1,0 +1,70 @@
+.content .title {
+  background-image: url("../images/product.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+article {
+  color: #ffffff;
+  padding: 20px 12% 50px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+
+article h2 {
+  margin: 40px 0 0;
+  font-size: 2.2rem;
+}
+
+article h2 img {
+  width: 120px;
+}
+
+article p {
+  margin: 50px 0;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+
+article p span {
+  white-space: nowrap;
+  display: inline-block;
+}
+
+article a {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+article a:hover {
+  background-color: rgba(255,255,255,0.25);
+}
+
+article a::after {
+  content: '';
+  display: inline-block;
+  background-image: url(../images/link-icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1.4rem;
+  width: 1.5rem;
+  vertical-align: bottom;
+  margin: 0 0 0 6px;
+}
+
+article .coming-soon {
+  font-size: 1.4rem;
+}
+
+article.aktiva-v2 {
+  background-image: url(../images/aktiva-v2-gray.png);
+}
+
+article.aktiva {
+  background-image: url(../images/aktiva-gray.jpg);
+}
