@@ -26,7 +26,7 @@ button {
   padding: 0;
 }
 
-.clearfix:after {
+.clearfix::after {
   content: "";
   display: block;
   clear: both;
@@ -84,7 +84,7 @@ header nav .menu-button-icon {
   -webkit-transition: 0.2s;
 }
 
-header nav .menu-button-icon:before, header nav .menu-button-icon:after {
+header nav .menu-button-icon::before, header nav .menu-button-icon::after {
   display: block;
   content: "";
   position: absolute;
@@ -97,11 +97,11 @@ header nav .menu-button-icon:before, header nav .menu-button-icon:after {
   -webkit-transition: 0.3s;
 }
 
-header nav .menu-button-icon:before {
+header nav .menu-button-icon::before {
   margin-top: -11.5px;
 }
 
-header nav .menu-button-icon:after {
+header nav .menu-button-icon::after {
   margin-top: 8.5px;
 }
 
@@ -109,16 +109,16 @@ nav.open .menu-button-icon {
   background: transparent;
 }
 
-nav.open .menu-button-icon:before, nav.open .menu-button-icon:after {
+nav.open .menu-button-icon::before, nav.open .menu-button-icon::after {
   margin-top: 0;
 }
 
-nav.open .menu-button-icon:before {
+nav.open .menu-button-icon::before {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
 
-nav.open .menu-button-icon:after {
+nav.open .menu-button-icon::after {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
 }
