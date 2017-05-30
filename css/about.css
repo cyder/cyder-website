@@ -72,3 +72,57 @@ section.member .profile h4 {
   color: #a3a3a3;
   margin: 4px 0 0;
 }
+
+@media only screen and (min-width: 480px) {
+section {
+  padding: 40px 3% 60px;
+}
+
+section h2 {
+  font-size: 2rem;
+}
+
+section p {
+  margin: 0 13%;
+}
+
+section.vision h3 {
+  font-size: 1.6rem;
+}
+
+section.member {
+  padding: 40px 6% 60px;
+}
+
+section.member .profile .icon {
+  width: 180px;
+  height: 180px;
+}
+}
+
+@media only screen and (min-width: 768px) {
+section {
+  padding: 40px 3% 80px;
+}
+
+section h2 {
+  font-size: 2.2rem;
+}
+
+section p {
+  width: 500px;
+  margin: 0 auto;
+}
+
+section.vision h3 {
+  font-size: 2.4rem;
+}
+
+section.member {
+  padding: 40px 10% 60px;
+}
+
+section.member .profile {
+  width: 33.33%;
+}
+}
