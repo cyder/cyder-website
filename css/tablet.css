@@ -61,11 +61,13 @@ header nav a {
 header nav a.twitter {
   background: url("../images/twitter-gray.png") no-repeat;
   background-size: contain;
+  background-position: center;
 }
 
 header nav a.facebook {
   background: url("../images/facebook-gray.png") no-repeat;
   background-size: contain;
+  background-position: center;
 }
 
 header nav li img {

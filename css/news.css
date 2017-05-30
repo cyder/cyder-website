@@ -1,6 +1,7 @@
 .content .title {
   background-image: url("../images/news.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 article a {
@@ -33,6 +34,7 @@ article .photo {
   height: 220px;
   background-color: #353535;
   background-size: cover;
+  background-position: center;
 }
 
 article .photo .border {

@@ -1,6 +1,7 @@
 .content .title {
   background-image: url("../images/about.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 section {
@@ -59,6 +60,7 @@ section.member .profile .icon {
   height: 140px;
   margin: 0 auto;
   background-size: cover;
+  background-position: center;
 }
 
 section.member .profile h3 {
