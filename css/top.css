@@ -163,3 +163,15 @@
 .about p {
   margin: 10px 10%;
 }
+
+/**
+ * news
+ */
+
+.news .title {
+  margin-bottom: -50px;
+}
+
+.news article a{
+  margin: 10px 8% 20px;
+}
