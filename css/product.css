@@ -1,6 +1,7 @@
 .content .title {
   background-image: url("../images/product.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 article {
@@ -8,7 +9,7 @@ article {
   padding: 20px 20% 50px;
   text-align: center;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
 }
 
 article h2 {
