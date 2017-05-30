@@ -26,6 +26,11 @@ button {
   padding: 0;
 }
 
+p {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
 .clearfix::after {
   content: "";
   display: block;
