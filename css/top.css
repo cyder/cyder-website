@@ -179,3 +179,35 @@
 .product article {
   margin: 10px 6%;
 }
+
+/**
+ * contact
+ */
+
+.contact {
+  padding: 16px;
+  background-image: url("../images/contact.jpg");
+  color: #ffffff;
+}
+
+.contact .border {
+  border: solid #ffffff 2px;
+}
+
+.contact .title {
+  background-color: transparent;
+  padding: 40px 0 50px;
+}
+
+.contact p {
+  margin: 10px 10% 30px;
+}
+
+.contact .read-more a {
+  background-color: transparent;
+  border: solid #ffffff 2px;
+}
+
+.contact .read-more a:hover {
+  background-color: rgba(255,255,255,0.25);
+}
