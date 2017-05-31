@@ -165,13 +165,17 @@
 }
 
 /**
- * news
+ * news, product
  */
 
-.news .title {
+.news .title, .product .title{
   margin-bottom: -50px;
 }
 
 .news article a{
   margin: 10px 8% 20px;
+}
+
+.product article {
+  margin: 10px 6%;
 }

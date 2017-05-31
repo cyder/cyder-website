@@ -1,10 +1,10 @@
-.content .title {
+.product .title {
   background-image: url("../images/product.jpg");
   background-size: cover;
   background-position: center;
 }
 
-article {
+.product article {
   color: #ffffff;
   padding: 20px 12% 50px;
   text-align: center;
@@ -12,25 +12,25 @@ article {
   background-position: center;
 }
 
-article h2 {
-  margin: 40px 0 0;
+.product article h2 {
+  margin: 30px 0 0;
   font-size: 2.2rem;
 }
 
-article h2 img {
+.product article h2 img {
   width: 120px;
 }
 
-article p {
+.product article p {
   margin: 50px 0;
 }
 
-article p span {
+.product article p span {
   white-space: nowrap;
   display: inline-block;
 }
 
-article a {
+.product article a {
   color: #ffffff;
   border: 2px solid #ffffff;
   padding: 10px 20px;
@@ -38,11 +38,11 @@ article a {
   line-height: 1.4rem;
 }
 
-article a:hover {
+.product article a:hover {
   background-color: rgba(255,255,255,0.25);
 }
 
-article a::after {
+.product article a::after {
   content: '';
   display: inline-block;
   background-image: url(../images/link-icon.png);
@@ -55,14 +55,14 @@ article a::after {
   margin: 0 0 0 6px;
 }
 
-article .coming-soon {
+.product article .coming-soon {
   font-size: 1.4rem;
 }
 
-article.aktiva-v2 {
+.product article.aktiva-v2 {
   background-image: url(../images/aktiva-v2-gray.png);
 }
 
-article.aktiva {
+.product article.aktiva {
   background-image: url(../images/aktiva-gray.jpg);
 }
