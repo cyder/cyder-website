@@ -129,3 +129,51 @@ button {
 .concept h2 span::before {
   right: -100vw;
 }
+
+/**
+ * main-functions section
+ */
+
+ .main-functions {
+   padding-bottom: 60px;
+ }
+
+.main-functions .function {
+  text-align: center;
+  position: relative;
+  padding: 50px 0;
+}
+
+.main-functions .function::after {
+  position: absolute;
+  display: block;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 210px;
+  width: 210px;
+  border: 2px solid #ffffff;
+  transform: rotate(45deg);
+}
+
+.main-functions .function img {
+  height: 60px;
+}
+
+.main-functions .function h3 {
+  margin: 15px 0 5px;
+  font-size: 1rem;
+}
+
+.main-functions .function p {
+  display: table-cell;
+	vertical-align: middle;
+  width: 100vw;
+  font-size: 0.6rem;
+  line-height: 1.2rem;
+  height: 3.6rem;
+  padding: 0;
+}
