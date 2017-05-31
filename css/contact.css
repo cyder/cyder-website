@@ -1,0 +1,74 @@
+.contact .title {
+  background-image: url("../images/contact.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.contact p {
+  margin: 20px 10%;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.contact p span {
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.contact form {
+  padding: 5px 10%;
+}
+
+.contact form div {
+  margin: 10px 0;
+}
+
+.contact label {
+  display: block;
+  line-height: 2rem;
+}
+
+.contact input {
+  display: block;
+  width: 94%;
+  border: none;
+  padding: 7px 3%;
+  background-color: #ffffff;
+}
+
+.contact textarea {
+  border: none;
+  width: 94%;
+  padding: 7px 3%;
+}
+
+.submit {
+  text-align: center;
+}
+
+.submit button {
+  display: inline-block;
+  color: #ffffff;
+  line-height: 1.2rem;
+  background-color: #303030;
+  padding: 15px 15px 15px 30px;
+  margin: 20px auto 40px;
+}
+
+.submit button:hover {
+  background-color: #fbb03b;
+}
+
+.submit button::after {
+  content: '';
+  display: inline-block;
+  background-image: url(../images/right-arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1.2rem;
+  width: 1.2rem;
+  vertical-align: bottom;
+  margin: 0 0 0 15px;
+}
