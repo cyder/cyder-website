@@ -1,6 +1,8 @@
 html, body {
   background-color: #0f0f0f;
   color: #ffffff;
+  font-family: "Helvetica Neue", 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',"メイリオ", sans-serif;;
+  font-weight: 400;
 }
 
 button {
