@@ -58,7 +58,7 @@
   line-height: 4rem;
 }
 
-.top h1 .line{
+.top h1 .line {
   white-space: nowrap;
   display: inline-block;
 }
@@ -168,11 +168,11 @@
  * news, product
  */
 
-.news .title, .product .title{
+.news .title, .product .title {
   margin-bottom: -50px;
 }
 
-.news article a{
+.news article a {
   margin: 10px 8% 20px;
 }
 
