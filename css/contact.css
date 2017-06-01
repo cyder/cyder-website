@@ -72,3 +72,37 @@
   vertical-align: bottom;
   margin: 0 0 0 15px;
 }
+
+@media only screen and (min-width: 480px) {
+.contact input {
+  width: 96%;
+  padding: 7px 2%;
+}
+
+.contact textarea {
+  width: 96%;
+  padding: 7px 2%;
+}
+}
+
+@media only screen and (min-width: 768px) {
+.contact label {
+  display: inline-block;
+  width: 30%;
+}
+
+.contact input {
+  display: inline-block;
+  width: 68%;
+  border: none;
+  padding: 7px 1%;
+}
+
+.contact form div {
+  margin: 25px 0;
+}
+
+.submit button {
+  padding: 15px 20px 15px 40px;
+}
+}
