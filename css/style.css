@@ -26,6 +26,11 @@ button {
   padding: 0;
 }
 
+p {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
 .clearfix::after {
   content: "";
   display: block;
@@ -38,6 +43,7 @@ button {
 
 header {
   position: fixed;
+  top: 0;
   width: 100%;
   z-index: 100;
   background-color: #ffffff;

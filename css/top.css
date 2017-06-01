@@ -1,0 +1,213 @@
+/**
+ * 共通
+ */
+
+.content {
+  padding: 0;
+}
+
+.read-more {
+  text-align: center;
+}
+
+.read-more a:hover {
+  background-color: #fbb03b;
+}
+
+.read-more a {
+  display: inline-block;
+  color: #ffffff;
+  line-height: 1.2rem;
+  background-color: #303030;
+  padding: 15px 10px 15px 20px;
+  margin: 40px auto;
+}
+
+.read-more a::after {
+  content: '';
+  display: inline-block;
+  background-image: url(../images/right-arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1.2rem;
+  width: 1.2rem;
+  vertical-align: bottom;
+  margin: 0 0 0 15px;
+}
+
+/**
+ * トップ部分
+ */
+
+.top {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../images/top.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #ffffff;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.top h1 {
+  font-size: 2.4rem;
+  line-height: 4rem;
+}
+
+.top h1 .line {
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.top h1 .line .up {
+  position: relative;
+  top: -5px;
+  color: #fbb03b;
+}
+
+.top h1 .line .down {
+  position: relative;
+  top: 5px;
+  color: #fbb03b;
+}
+
+.top .scroll-down {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 12px;
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+}
+
+.top .scroll-down img {
+  width: 100%;
+}
+
+/**
+ * about
+ */
+
+.about .title {
+  background-color: transparent;
+  color: #303030;
+  padding: 30px 0 15px;
+}
+
+.about .title h1 {
+  display: inline;
+  margin: 0 2px;
+  position: relative;
+}
+
+.about .title h1::before {
+  position: absolute;
+  left: -10px;
+  display: block;
+  content: '';
+  width: 2px;
+  height: 240px;
+  background-color: #cccccc;
+  z-index: -1;
+}
+
+.about .title h2 {
+  display: inline;
+  margin: 0 2px;
+  position: relative;
+}
+
+.about .title h2::after {
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+  display: block;
+  content: '';
+  width: 100vw;
+  height: 2px;
+  background-color: #cccccc;
+  z-index: -1;
+}
+
+.about .about-img {
+  position: relative;
+}
+
+.about .about-img img {
+  position: relative;
+  right: 15px;
+  display: block;
+  width: 250px;
+  margin: 15px auto 50px;
+}
+
+.about .about-img::after {
+  position: absolute;
+  top: 16px;
+  left: 15px;
+  right: -15px;
+  margin: auto;
+  z-index: -1;
+  display: block;
+  content: '';
+  background-color: #cccccc;
+  width: 250px;
+  height: 148px;
+}
+
+.about p {
+  margin: 10px 10%;
+}
+
+/**
+ * news, product
+ */
+
+.news .title, .product .title {
+  margin-bottom: -50px;
+}
+
+.news article a {
+  margin: 10px 8% 20px;
+}
+
+.product article {
+  margin: 10px 6%;
+}
+
+/**
+ * contact
+ */
+
+.contact {
+  padding: 16px;
+  background-image: url("../images/contact.jpg");
+  color: #ffffff;
+}
+
+.contact .border {
+  border: solid #ffffff 2px;
+}
+
+.contact .title {
+  background-color: transparent;
+  padding: 40px 0 50px;
+}
+
+.contact p {
+  margin: 10px 10% 30px;
+}
+
+.contact .read-more a {
+  background-color: transparent;
+  border: solid #ffffff 2px;
+}
+
+.contact .read-more a:hover {
+  background-color: rgba(255,255,255,0.25);
+}
