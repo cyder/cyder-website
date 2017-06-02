@@ -87,6 +87,15 @@
   width: 280px;
   cursor: pointer;
   z-index: 100;
+  transform: translateY(-100px);
+  -webkit-transform: translateY(-100px);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+}
+
+.pop-up.show {
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
 }
 
 @media only screen and (min-width: 480px) {
