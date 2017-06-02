@@ -4,9 +4,12 @@
   background-position: center;
 }
 
+.news article {
+  padding: 10px 3% 30px;
+}
+
 .news article a {
   display: block;
-  margin: 10px 3% 30px;
   padding-bottom: 5px;
   background-color: #ffffff;
   color: #353535;
@@ -57,8 +60,8 @@
 }
 
 @media only screen and (min-width: 480px) {
-.news article a {
-  margin: 10px 6% 30px;
+.news article {
+  padding: 10px 6% 30px;
 }
 
 .news article .photo {
@@ -71,9 +74,18 @@
 }
 
 @media only screen and (min-width: 768px) {
-.news article a {
-  float: left;
+.news .articles {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news article {
   width: 46%;
-  margin: 10px 2% 30px;
+  padding: 10px 2% 30px;
+}
+
+.news article a {
+  height: 100%;
 }
 }
