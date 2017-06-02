@@ -75,7 +75,8 @@
 
 @media only screen and (min-width: 768px) {
 .news .articles {
-  width: 100%;
+  width: 96%;
+  padding: 0 2%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -87,5 +88,13 @@
 
 .news article a {
   height: 100%;
+}
+
+.news article .photo {
+  height: 240px;
+}
+
+.news article a:hover .news-read-more {
+  line-height: 196px;
 }
 }
