@@ -22,11 +22,24 @@
 
 .contact form div {
   margin: 10px 0;
+  position: relative;
 }
 
 .contact label {
   display: block;
   line-height: 2rem;
+}
+
+.contact .notes {
+  color: #a3a3a3;
+}
+
+.contact p.notes {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .contact input {

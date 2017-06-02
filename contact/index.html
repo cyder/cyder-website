@@ -48,19 +48,22 @@
       </p>
       <form>
         <div>
-          <label for="name" required>名前 ※</label><input type="text" name="name" required>
+          <label for="name" required>お名前 <span class="notes">※</span></label>
+          <p class="notes">※：必須項目</p>
+          <input type="text" name="name" required>
         </div>
         <div>
           <label for="Affiliation">所属</label><input type="text" name="Affiliation">
         </div>
         <div>
-          <label for="mail" required>メールアドレス ※</label><input type="text" name="mail" required>
+          <label for="mail" required>メールアドレス <span class="notes">※</span></label>
+          <input type="text" name="mail" required>
         </div>
         <div>
           <label for="phone">電話番号</label><input type="text" name="phone">
         </div>
         <div>
-          <label for="inquiry">お問い合わせ内容</label>
+          <label for="inquiry">お問い合わせ内容 <span class="notes">※</span></label>
           <textarea name="inquiry" rows="5" cols="40" required></textarea>
         </div>
         <div class="submit">
