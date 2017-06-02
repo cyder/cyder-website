@@ -24,8 +24,12 @@
   font-size: 2.2rem;
 }
 
-.product article h2 img {
+.product article.aktiva h2 img {
   width: 120px;
+}
+
+.product article.famirror h2 img {
+  width: 250px;
 }
 
 .product article p {
@@ -72,4 +76,8 @@
 
 .product article.aktiva {
   background-image: url(../images/aktiva-gray.jpg);
+}
+
+.product article.famirror {
+  background-image: url(../images/famirror-back.jpg);
 }
