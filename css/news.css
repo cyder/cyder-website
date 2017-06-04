@@ -4,15 +4,19 @@
   background-position: center;
 }
 
+.news article {
+  padding: 10px 3% 30px;
+}
+
 .news article a {
   display: block;
-  margin: 10px 3% 30px;
-  padding-bottom: 5px;
   background-color: #ffffff;
+  height: 100%;
   color: #353535;
   text-decoration: none;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: box-shadow 0.3s cubic-bezier(0.25,0.8,0.25,1);
+  position: relative;
 }
 
 .news article a:hover {
@@ -46,12 +50,52 @@
 }
 
 .news article h3 {
-  margin: 10px 12px 15px;
+  margin: 10px 12px 40px;
   font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .news article time {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
   margin: 0 12px;
   font-size: 0.8rem;
   color: #a3a3a3;
+}
+
+@media only screen and (min-width: 480px) {
+.news article {
+  padding: 10px 6% 30px;
+}
+
+.news article .photo {
+  height: 260px;
+}
+
+.news article a:hover .news-read-more {
+  line-height: 216px;
+}
+}
+
+@media only screen and (min-width: 768px) {
+.news .articles {
+  width: 96%;
+  padding: 0 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news article {
+  width: 46%;
+  padding: 10px 2% 30px;
+}
+
+.news article .photo {
+  height: 240px;
+}
+
+.news article a:hover .news-read-more {
+  line-height: 196px;
+}
 }
