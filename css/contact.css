@@ -38,6 +38,7 @@
 }
 
 .contact textarea {
+  display: block;
   border: none;
   width: 94%;
   padding: 7px 3%;
@@ -104,5 +105,29 @@
 
 .submit button {
   padding: 15px 20px 15px 40px;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+.contact form {
+  padding: 5px 0;
+}
+.contact form div {
+  width: 800px;
+  margin: 25px auto;
+}
+
+.contact label {
+  width: 200px;
+}
+
+.contact input {
+  width: 580px;
+  padding: 7px 10px;
+}
+
+.contact textarea {
+  width: 780px;
+  padding: 7px 10px;
 }
 }
