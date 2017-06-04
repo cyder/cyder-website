@@ -74,6 +74,31 @@
   margin: 0 0 0 15px;
 }
 
+.pop-up {
+  position: fixed;
+  background-color: #303030;
+  color: #ffffff;
+  top: 30px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  padding: 15px 0;
+  border-radius: 5px;
+  width: 280px;
+  cursor: pointer;
+  z-index: 100;
+  transform: translateY(-100px);
+  -webkit-transform: translateY(-100px);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+}
+
+.pop-up.show {
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+}
+
 @media only screen and (min-width: 480px) {
 .contact input {
   width: 96%;
@@ -83,6 +108,10 @@
 .contact textarea {
   width: 96%;
   padding: 7px 2%;
+}
+
+.pop-up {
+  width: 350px;
 }
 }
 
@@ -105,6 +134,10 @@
 
 .submit button {
   padding: 15px 20px 15px 40px;
+}
+
+.pop-up {
+  width: 400px;
 }
 }
 

@@ -9,7 +9,7 @@ $(function() {
       data: data,
       success: function(data) {
         if(data === 'true')
-          $('form').find("textarea, :text, select").val("").end().find(":checked").prop("checked", false);
+          success();
         else
           error();
       },
@@ -17,10 +17,26 @@ $(function() {
         error();
       },
     })
+
+    $('#pop-up').on('click', function() {
+      $(this).removeClass('show');
+    });
     return false;
   });
 
-  function error() {
-    alert("error");
+  function success() {
+    $('form').find("textarea, :text, select").val("").end().find(":checked").prop("checked", false);
+    popUp('送信が完了しました。');
   };
+
+  function error() {
+    popUp('送信に失敗しました。');
+  };
+
+  function popUp(text) {
+    $('#pop-up').text(text).addClass('show');
+    setTimeout( function() {
+      $('#pop-up').removeClass('show');
+    }, 3000);
+  }
 });
