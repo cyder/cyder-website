@@ -6,10 +6,17 @@
 
 .product article {
   color: #ffffff;
-  padding: 20px 12% 50px;
+  padding: 0 12% 30px;
   text-align: center;
   background-size: cover;
   background-position: center;
+}
+
+.product article .cell {
+  display: table-cell;
+  vertical-align: middle;
+  height: 400px;
+  width: 100vw;
 }
 
 .product article h2 {
