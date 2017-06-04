@@ -17,12 +17,12 @@
 }
 
 .contact form {
-  padding: 5px 10%;
+  margin: 5px 10%;
+  position: relative;
 }
 
 .contact form div {
   margin: 10px 0;
-  position: relative;
 }
 
 .contact label {
@@ -34,9 +34,11 @@
   color: #a3a3a3;
 }
 
-.contact p.notes {
+.contact small.notes {
   margin: 0;
   padding: 0;
+  display: block;
+  line-height: 2rem;
   position: absolute;
   top: 0;
   right: 0;
@@ -105,6 +107,11 @@
   width: 30%;
 }
 
+.contact small.notes {
+  position: static;
+  text-align: right;
+}
+
 .contact input {
   display: inline-block;
   width: 68%;
@@ -113,7 +120,7 @@
 }
 
 .contact form div {
-  margin: 25px 0;
+  margin: 0 0 25px 0;
 }
 
 .submit button {
@@ -123,11 +130,13 @@
 
 @media only screen and (min-width: 1024px) {
 .contact form {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 5px 0;
 }
 .contact form div {
-  width: 800px;
-  margin: 25px auto;
+  margin: 0 auto 25px auto;
 }
 
 .contact label {
