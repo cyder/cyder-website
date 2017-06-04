@@ -3,7 +3,7 @@
   $keys = array_keys($data);
   $message = '';
   foreach ($keys as $key) {
-    $message = $message . $key . ':' . $data[$key] . '\n';
+    $message = $message . $key . ':' . "\n" . $data[$key] . "\n\n";
   }
 
   mb_language("Japanese");
