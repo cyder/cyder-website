@@ -117,4 +117,14 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+.news article time {
+  bottom: 8px;
+  font-size: 0.7rem;
+}
+
+.news article h3 {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
 }
