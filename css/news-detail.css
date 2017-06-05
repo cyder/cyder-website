@@ -1,0 +1,60 @@
+.news .title {
+  background-image: url("../images/news.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+article {
+  padding: 20px 10% 50px;
+}
+
+article time {
+  color: #a3a3a3;
+}
+
+article h2 {
+  margin: 10px 0 20px;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+article img {
+  width: 100%;
+}
+
+article p {
+  margin: 20px 0;
+}
+
+article a {
+  color: #a3a3a3;
+  line-height: 1.2rem;
+}
+
+article a::after {
+  content: '';
+  display: inline-block;
+  background-image: url(../images/link-icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  height: 1.2rem;
+  width: 1.2rem;
+  vertical-align: bottom;
+  margin: 0 0 0 6px;
+}
+
+article .youtube {
+  margin: 20px 0;
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+article iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
