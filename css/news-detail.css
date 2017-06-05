@@ -88,3 +88,19 @@ article .youtube {
   margin: 30px 0 20px;
 }
 }
+
+@media only screen and (min-width: 1024px) {
+article {
+  max-width: 1200px;
+  padding: 20px 2% 50px;
+  margin: 0 auto;
+}
+
+article img {
+  margin: 40px 0 20px;
+}
+
+article .youtube {
+  margin: 40px 0 20px;
+}
+}
