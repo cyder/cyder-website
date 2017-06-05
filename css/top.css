@@ -263,3 +263,23 @@
   font-size: 2.2rem;
 }
 }
+
+@media only screen and (min-width: 768px) {
+.top h1 {
+  font-size: 3.5rem;
+  line-height: 5rem;
+}
+
+.about .about-img img {
+  width: 450px;
+}
+
+.about .about-img::after {
+  width: 450px;
+  height: 267px;
+}
+
+.news article a {
+  margin: 0;
+}
+}
