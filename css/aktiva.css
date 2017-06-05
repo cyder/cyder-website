@@ -1,9 +1,8 @@
 html, body {
   background-color: #0f0f0f;
   color: #ffffff;
-  font-family: "Helvetica Neue", 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',"メイリオ", sans-serif;;
+  font-family: 'Helvetica Neue', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
   font-weight: 400;
-  overflow-x: hidden;
 }
 
 button {
@@ -12,6 +11,10 @@ button {
   cursor: pointer;
   outline: none;
   padding: 0;
+}
+
+section {
+  overflow: hidden;
 }
 
 /**
@@ -74,6 +77,11 @@ button {
  * content section
  */
 
+.content {
+  background-size: cover;
+  background-position: center;
+}
+
 .content h2 {
   text-align: center;
   font-weight: normal;
@@ -109,9 +117,7 @@ button {
  */
 
 .aktiva {
-  background-image: url(../images/aktiva.jpg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../images/aktiva.png);
 }
 
 .aktiva h2 span::before {
@@ -124,8 +130,6 @@ button {
 
 .concept {
   background-image: url(../images/concept.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .concept h2 span::before {
