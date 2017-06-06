@@ -340,4 +340,92 @@
 .news article a {
   margin: 0;
 }
+
+.contact p {
+  text-align: center;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+.read-more a {
+  margin: 40px auto 60px;
+}
+
+.top h1 {
+  font-size: 4rem;
+  line-height: 6rem;
+}
+
+.about {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about .text {
+  width: 55%;
+  float: left;
+}
+
+.about .media {
+  width: 45%;
+  float: right;
+  padding-top: 120px;
+}
+
+.about .title {
+  text-align: left;
+  padding: 50px 0 30px 100px;
+}
+
+.about .title h1::before {
+  height: 380px;
+}
+
+.about .title h2::after {
+  width: 320px;
+}
+
+.about .about-img img {
+  width: 400px;
+}
+
+.about .about-img::after {
+  width: 400px;
+  height: 237px;
+}
+
+.about p {
+  margin: 10px 20px 10px 120px;
+}
+
+.about .read-more {
+  text-align: left;
+}
+
+.about .read-more a {
+  margin: 30px 0 80px 120px;
+}
+
+.products .articles {
+  max-width: 1600px;
+  padding: 0 2%;
+  margin: 0 auto;
+}
+
+.products article {
+  float: left;
+  width: 36%;
+  margin: 20px 6% 0;
+  margin: 0 1%;
+  padding: 0 6% 30px;
+}
+
+.products article .cell {
+  height: 500px;
+}
+
+.products article h2 {
+  height: 230px;
+  line-height: 230px;
+}
 }
