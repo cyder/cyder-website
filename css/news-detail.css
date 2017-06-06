@@ -64,13 +64,13 @@ article {
   padding: 20px 2% 50px;
 }
 
-article .left {
+article .text {
   width: 46%;
   padding: 0 2%;
   float: left;
 }
 
-article .right {
+article .media {
   width: 46%;
   padding: 0 2%;
   float: right;
