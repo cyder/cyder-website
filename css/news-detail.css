@@ -34,14 +34,14 @@ article a {
 article a::after {
   content: '';
   display: inline-block;
-  background-image: url(../images/link-icon.png);
+  background-image: url(../images/link-icon-gray.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 80%;
   height: 1.2rem;
   width: 1.2rem;
   vertical-align: bottom;
-  margin: 0 0 0 6px;
+  margin: 0 0 0 3px;
 }
 
 article .youtube {
