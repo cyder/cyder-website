@@ -148,6 +148,10 @@ nav.open ul {
   overflow: scroll;
 }
 
+header nav li {
+  font-weight: 500;
+}
+
 header nav a {
   display: block;
   color: #ffffff;
