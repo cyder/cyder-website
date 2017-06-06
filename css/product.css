@@ -114,3 +114,21 @@
   width: 350px;
 }
 }
+
+@media only screen and (min-width: 1024px) {
+.product article h2 {
+  font-size: 3.5rem;
+}
+
+.product article .cell {
+  height: 500px;
+}
+
+.product article.aktiva h2 img {
+  width: 180px;
+}
+
+.product article.famirror h2 img {
+  width: 400px;
+}
+}
