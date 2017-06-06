@@ -99,3 +99,32 @@
   line-height: 196px;
 }
 }
+
+@media only screen and (min-width: 1024px) {
+.news article {
+  width: 31.3%;
+  padding: 10px 1% 30px;
+}
+
+.news article a:hover .news-read-more {
+  font-size: 1.8rem;
+}
+
+.news .articles {
+  max-width: 1250px;
+  padding: 0 2%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news article time {
+  bottom: 8px;
+  font-size: 0.7rem;
+}
+
+.news article h3 {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+}
