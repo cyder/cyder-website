@@ -70,10 +70,25 @@
   background-color: #303030;
   padding: 15px 15px 15px 30px;
   margin: 20px auto 40px;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
 }
 
-.submit button:hover {
+.submit button:hover::before {
+  left: 0;
+}
+
+.submit button::before {
+  content: '';
+  width: 100%;
+  height: 100%;
   background-color: #fbb03b;
+  z-index: -1;
+  transition: left 0.3s ease 0s;
+  position: absolute;
+  top: 0;
+  left: -100%;
 }
 
 .submit button::after {
