@@ -47,6 +47,7 @@
   padding: 10px 20px;
   font-size: 1.2rem;
   line-height: 1.4rem;
+  transition: background-color 0.3s ease 0s;
 }
 
 .product article a:hover {
