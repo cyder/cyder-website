@@ -217,10 +217,10 @@
 }
 
 /**
- * news, product
+ * news, products
  */
 
-.news .title, .product .title {
+.news .title, .products .title {
   margin-bottom: -50px;
 }
 
@@ -237,12 +237,12 @@
   font-size: 2rem;
 }
 
-.product article {
+.products article {
   margin: 20px 6% 0;
   padding: 0 6% 30px;
 }
 
-.product article .cell {
+.products article .cell {
   height: 380px;
 }
 
