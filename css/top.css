@@ -1,0 +1,431 @@
+/**
+ * 共通
+ */
+
+.content {
+  padding: 0;
+}
+
+.read-more {
+  text-align: center;
+}
+
+.read-more a:hover::before {
+  left: 0;
+}
+
+.read-more a {
+  display: inline-block;
+  color: #ffffff;
+  line-height: 1.2rem;
+  background-color: #303030;
+  padding: 15px 10px 15px 20px;
+  margin: 40px auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.read-more a::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #fbb03b;
+  z-index: -1;
+  transition: left 0.3s ease 0s;
+  position: absolute;
+  top: 0;
+  left: -100%;
+}
+
+.read-more a::after {
+  content: '';
+  display: inline-block;
+  background-image: url(../images/right-arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1.2rem;
+  width: 1.2rem;
+  vertical-align: bottom;
+  margin: 0 0 0 15px;
+}
+
+/**
+ * トップ部分
+ */
+
+.top {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../images/top.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  color: #ffffff;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.top h1 {
+  font-size: 2.4rem;
+  line-height: 4rem;
+}
+
+.top h1 .line {
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.top h1 .line .up {
+  position: relative;
+  top: -5px;
+  color: #fbb03b;
+}
+
+.top h1 .line .down {
+  position: relative;
+  top: 5px;
+  color: #fbb03b;
+}
+
+.top .scroll-down {
+  padding-top: 40px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 12px;
+  margin: 0 auto;
+  width: 20px;
+}
+
+.top .scroll-down span,
+.top .scroll-down::before, .top .scroll-down::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 1.41421356px;
+  width: 70.7106782373095%;
+  padding-top: 70.7106782373095%;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  transform: rotate(-45deg);
+  animation: sdb 2s infinite;
+  opacity: 0;
+}
+
+.top .scroll-down::before {
+  content: '';
+  top: 0px;
+  animation-delay: 0s;
+}
+
+.top .scroll-down span {
+  top: 8px;
+  animation-delay: 0.15s;
+}
+
+.top .scroll-down::after {
+  content: '';
+  top: 16px;
+  animation-delay: 0.3s;
+}
+
+@keyframes sdb {
+  0%   { opacity: 0; }
+  50%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+
+
+/**
+ * about
+ */
+
+.about .title {
+  background-color: transparent;
+  color: #303030;
+  padding: 30px 0 15px;
+}
+
+.about .title h1 {
+  display: inline;
+  margin: 0 2px;
+  position: relative;
+}
+
+.about .title h1::before {
+  position: absolute;
+  left: -10px;
+  display: block;
+  content: '';
+  width: 2px;
+  height: 240px;
+  background-color: #cccccc;
+  z-index: -1;
+}
+
+.about .title h2 {
+  display: inline;
+  margin: 0 2px;
+  position: relative;
+}
+
+.about .title h2::after {
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+  display: block;
+  content: '';
+  width: 100vw;
+  height: 2px;
+  background-color: #cccccc;
+  z-index: -1;
+}
+
+.about .about-img {
+  position: relative;
+}
+
+.about .about-img img {
+  position: relative;
+  right: 15px;
+  display: block;
+  width: 250px;
+  margin: 15px auto 50px;
+}
+
+.about .about-img::after {
+  position: absolute;
+  top: 16px;
+  left: 15px;
+  right: -15px;
+  margin: auto;
+  z-index: -1;
+  display: block;
+  content: '';
+  background-color: #cccccc;
+  width: 250px;
+  height: 148px;
+}
+
+.about p {
+  margin: 10px 10%;
+}
+
+/**
+ * news, products
+ */
+
+.news .title, .products .title {
+  margin-bottom: -50px;
+}
+
+.news article a {
+  margin: 0 4%;
+}
+
+.news article .photo {
+  height: 180px;
+}
+
+.news article a:hover .news-read-more {
+  line-height: 136px;
+  font-size: 2rem;
+}
+
+.products article {
+  margin: 20px 6% 0;
+  padding: 0 6% 30px;
+}
+
+.products article .cell {
+  height: 380px;
+}
+
+/**
+ * contact
+ */
+
+.contact {
+  padding: 16px;
+  background-image: url("../images/contact.jpg");
+  color: #ffffff;
+}
+
+.contact .border {
+  border: solid #ffffff 2px;
+}
+
+.contact .title {
+  background-color: transparent;
+  padding: 40px 0 50px;
+}
+
+.contact p {
+  margin: 10px 10% 30px;
+}
+
+.contact .read-more a {
+  background-color: transparent;
+  border: solid #ffffff 2px;
+  transition: background-color 0.3s ease 0s;
+}
+
+.contact .read-more a:hover {
+  background-color: rgba(255,255,255,0.25);
+}
+
+.contact .read-more a::before {
+  display: none;
+}
+
+
+@media only screen and (min-width: 480px) {
+.top h1 {
+  padding: 0 4%;
+  font-size: 2.8rem;
+  line-height: 4.4rem;
+}
+
+.about .title {
+  padding: 40px 0 20px;
+}
+
+.about .title h1 {
+  font-size: 2.4rem;
+}
+
+.about .title h2 {
+  font-size: 1rem;
+}
+
+.about .about-img img {
+  width: 350px;
+}
+
+.about .about-img::after {
+  width: 350px;
+  height: 207px;
+}
+
+.news article .photo {
+  height: 240px;
+}
+
+.news article a:hover .news-read-more {
+  line-height: 196px;
+  font-size: 2.2rem;
+}
+}
+
+@media only screen and (min-width: 768px) {
+.top h1 {
+  font-size: 3.5rem;
+  line-height: 5rem;
+}
+
+.about .about-img img {
+  width: 450px;
+}
+
+.about .about-img::after {
+  width: 450px;
+  height: 267px;
+}
+
+.news article a {
+  margin: 0;
+}
+
+.contact p {
+  text-align: center;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+.read-more a {
+  margin: 40px auto 60px;
+}
+
+.top h1 {
+  font-size: 4rem;
+  line-height: 6rem;
+}
+
+.about {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about .text {
+  width: 55%;
+  float: left;
+}
+
+.about .media {
+  width: 45%;
+  float: right;
+  padding-top: 120px;
+}
+
+.about .title {
+  text-align: left;
+  padding: 50px 0 30px 100px;
+}
+
+.about .title h1::before {
+  height: 380px;
+}
+
+.about .title h2::after {
+  width: 320px;
+}
+
+.about .about-img img {
+  width: 400px;
+}
+
+.about .about-img::after {
+  width: 400px;
+  height: 237px;
+}
+
+.about p {
+  margin: 10px 20px 10px 120px;
+}
+
+.about .read-more {
+  text-align: left;
+}
+
+.about .read-more a {
+  margin: 30px 0 80px 120px;
+}
+
+.products .articles {
+  max-width: 1600px;
+  padding: 0 2%;
+  margin: 0 auto;
+}
+
+.products article {
+  float: left;
+  width: 36%;
+  margin: 20px 6% 0;
+  margin: 0 1%;
+  padding: 0 6% 30px;
+}
+
+.products article .cell {
+  height: 500px;
+}
+
+.products article h2 {
+  height: 230px;
+  line-height: 230px;
+}
+}

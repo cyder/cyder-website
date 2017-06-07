@@ -1,0 +1,230 @@
+html, body {
+  background-color: #0f0f0f;
+  color: #ffffff;
+  font-family: 'Helvetica Neue', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', sans-serif;
+  font-weight: 400;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
+section {
+  overflow: hidden;
+}
+
+/**
+ * cover section
+ */
+
+.cover {
+  height: 100vh;
+  background-image: url(../images/aktiva-gray.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.cover .slanting-square {
+  width: 80vw;
+  height: 80vw;
+  border: 2px solid #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotate(45deg);
+}
+
+.cover .title {
+  height: 100vh;
+  width: 100vw;
+	display: table-cell;
+	vertical-align: middle;
+  text-align: center;
+}
+
+.cover .title img {
+  width: 30%;
+}
+
+.cover .title p {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+
+.cover .scroll-down {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 12px;
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+}
+
+.cover .scroll-down img {
+  width: 100%;
+}
+
+/**
+ * content section
+ */
+
+.content {
+  background-size: cover;
+  background-position: center;
+}
+
+.content h2 {
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
+  padding: 50px 0;
+}
+
+.content h2 span {
+  position: relative;
+}
+
+.content h2 span::before {
+  position: absolute;
+  content: '';
+  display: block;
+  top: 0;
+  bottom: 0;
+  margin: auto -10px;
+  width: 100vw;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.content p {
+  margin: 0;
+  padding: 0 5% 80px;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+/**
+ * aktiva section
+ */
+
+.aktiva {
+  background-image: url(../images/aktiva.png);
+}
+
+.aktiva h2 span::before {
+  left: -100vw;
+}
+
+/**
+* concept section (common)
+*/
+
+.concept {
+  background-image: url(../images/concept.jpg);
+}
+
+.concept h2 span::before {
+  right: -100vw;
+}
+
+/**
+ * main-functions section
+ */
+
+ .main-functions {
+   padding-bottom: 60px;
+ }
+
+.main-functions .function {
+  text-align: center;
+  position: relative;
+  padding: 50px 0;
+}
+
+.main-functions .function::after {
+  position: absolute;
+  display: block;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 210px;
+  width: 210px;
+  border: 2px solid #ffffff;
+  transform: rotate(45deg);
+}
+
+.main-functions .function img {
+  height: 60px;
+}
+
+.main-functions .function h3 {
+  margin: 15px 0 5px;
+  font-size: 1rem;
+}
+
+.main-functions .function p {
+  display: table-cell;
+	vertical-align: middle;
+  width: 100vw;
+  font-size: 0.6rem;
+  line-height: 1.2rem;
+  height: 3.6rem;
+  padding: 0;
+}
+
+/**
+ * movie
+ */
+
+.movie {
+  background-image: url(../images/video.jpg);
+  padding-bottom: 60px;
+}
+
+.movie .youtube {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.movie .youtube iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/**
+ * footer
+ */
+
+footer {
+  text-align: center;
+}
+
+footer .footer-logo {
+  padding: 30px 0;
+}
+
+footer .footer-logo img {
+  width: 100px;
+}
+
+footer .copyright {
+  font-size: 0.8rem;
+  color: #a3a3a3;
+  padding: 0 0 30px;
+}

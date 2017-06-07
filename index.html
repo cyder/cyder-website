@@ -3,14 +3,186 @@
   <head>
     <title>Cyder</title>
 
-    <meta charset="UTF-8" />
-    <meta name="keywords" content="Cyder, Aktiva" />
-    <meta name="description" content="Cyder" />
-    <meta name="author" content="Cyder" />
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Cyder, Aktiva">
+    <meta name="description" content="Cyder">
+    <meta name="author" content="Cyder">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://cyder.tech">
+    <meta property="og:image" content="http://cyder.tech/images/ogp.png">
+    <meta property="og:site_name" content="Cyder">
+    <meta property="og:description" content="Cyderは独自サービスでの起業を目指す学生グループです。テクノロジーと身近なエンターテイメントを組み合わせることによって人生に新たな楽しみをもたらします。">
+    <meta property="fb:app_id" content="150795858797745">
+    <meta name="twitter:site" content="@Cyder_PR">
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/tablet.css">
+    <link rel="stylesheet" type="text/css" href="css/pc.css">
+    <link rel="stylesheet" type="text/css" href="css/news.css">
+    <link rel="stylesheet" type="text/css" href="css/products.css">
+    <link rel="stylesheet" type="text/css" href="css/top.css">
   </head>
 
   <body>
-    <h1>Cyder</h1>
+    <header id="main-header">
+      <h1><a href="./"><img src="./images/logo.png" alt="Cyder" class="title"></a></h1>
+      <nav id="nav">
+        <button id="menu-button" class="menu-button"><span class="menu-button-icon"></span></button>
+        <ul>
+          <li><a href="./about">ABOUT</a></li>
+          <li><a href="./news">NEWS</a></li>
+          <li><a href="./products">PRODUCTS</a></li>
+          <li><a href="./contact">CONTACT</a></li>
+          <li><a class="twitter" target="_blank" href="https://twitter.com/Cyder_PR"><img src="./images/twitter-white.png" alt="twitter"></a></li>
+          <li><a class="facebook" target="_blank" href="https://www.facebook.com/Cyder-446597179036768/"><img src="./images/facebook-white.png" alt="facebook"></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content">
+      <section class="top">
+        <h1><span class="line">もっと日常に</span><span class="line"><span class="up">「わ</span><span class="down">く</span><span class="up">わ</span><span class="down">く」</span>を。</span></h1>
+        <button id="scroll-down" class="scroll-down"><span></span></button>
+      </section>
+
+      <section id="main-content" class="about clearfix">
+        <div class="text">
+          <div class="title">
+            <h1>ABOUT</h1>
+            <h2>団体概要</h2>
+          </div>
+        </div>
+        <div class="media">
+          <div class="about-img"><img src="./images/top-about.jpg" alt="cyder"></img></div>
+        </div>
+        <div class="text">
+          <p>
+            Cyderは独自サービスでの起業を目指す学生グループです。
+            テクノロジーと身近なエンターテイメントを組み合わせることによって人生に新たな楽しみをもたらします。
+          </p>
+          <p>
+            現在は流行しつつあるダンスに注目し、より多くの人がダンスを踊って楽しめるシステムを開発中です。
+          </p>
+          <div class="read-more"><a href="./about/">READ MORE</a></div>
+        </div>
+      </section>
+
+      <section class="news">
+        <div class="title">
+          <div class="border">
+            <h1>NEWS</h1>
+            <h2>新着情報</h2>
+          </div>
+        </div>
+        <div class="articles">
+          <article>
+            <a href="./news/imaginecup170322.html">
+              <div class="photo" style="background-image: url('./images/news/imaginecup170322.jpg')">
+                <div class="news-read-more"><div class="border">READ MORE</div></div>
+              </div>
+              <h3>ImagineCup2017日本予選大会に出場しました。</h3>
+              <time>2017.3.22</time>
+            </a>
+          </article>
+          <article>
+            <a href="./news/koshien170309.html">
+              <div class="photo" style="background-image: url('./images/news/koshien170309.jpg')">
+                <div class="news-read-more"><div class="border">READ MORE</div></div>
+              </div>
+              <h3>平成28年度起業家甲子園で特別賞を受賞しました。</h3>
+              <time>2017.3.9</time>
+            </a>
+          </article>
+          <article>
+            <a href="./news/akashitv161117.html">
+              <div class="photo" style="background-image: url('./images/news/akashitv161117.jpg')">
+                <div class="news-read-more"><div class="border">READ MORE</div></div>
+              </div>
+              <h3>明石ケーブルテレビでAktiva（旧称：舞鏡）が紹介されました。</h3>
+              <time>2016.11.17</time>
+            </a>
+          </article>
+        </div>
+        <div class="read-more"><a href="./news/">READ MORE</a></div>
+      </section>
+
+      <section class="products">
+        <div class="title">
+          <div class="border">
+            <h1>PRODUCTS</h1>
+            <h2>製品紹介</h2>
+          </div>
+        </div>
+        <div class="articles clearfix">
+          <article class="aktiva">
+            <div class="cell">
+              <h2><img src="./images/aktiva-logo-white.png" alt="aktiva"></h2>
+              <p>
+                <span>ダンスに必須な機能を全て集約した、</span><span>スマートミラー。</span>
+              </p>
+              <div class="coming-soon">Coming soon...</div>
+            </div>
+          </article>
+          <article class="aktiva-v2">
+            <div class="cell">
+              <h2>Aktiva V2</h2>
+              <p>
+                <span>誰でも簡単に流行曲が作れるサービス。</span><span>（誠意開発中）</span>
+              </p>
+              <div class="coming-soon">Coming soon...</div>
+            </div>
+          </article>
+        </div>
+        <div class="read-more"><a href="./products/">READ MORE</a></div>
+      </section>
+
+      <section class="contact">
+        <div class="border">
+          <div class="title">
+            <h1>CONTACT</h1>
+            <h2>お問い合わせ</h2>
+          </div>
+          <p>
+            Cyderは一緒に活動したい学生や協力して頂ける企業を募集しています。<br>
+            お気軽にお問い合わせください。
+          </p>
+          <div class="read-more"><a href="./contact/">CONTACT US</a></div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <button id="page-top" class="page-top"><img src="./images/page-top.png" alt="Page Top"></button>
+      <div class="clearfix site-map">
+        <ul>
+          <li><a href="./about">ABOUT</a></li>
+          <li><a href="./news">NEWS</a></li>
+          <li><a href="./products">PRODUCTS</a></li>
+          <li><a href="./contact">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="clearfix">
+        <ul class="sns">
+          <li><a class="twitter" target="_blank" href="https://twitter.com/Cyder_PR"><img src="./images/twitter-white.png" alt="twitter"></a></li>
+          <li><a class="facebook" target="_blank" href="https://www.facebook.com/Cyder-446597179036768/"><img src="./images/facebook-white.png" alt="facebook"></a></li>
+        </ul>
+      </div>
+      <div class="copyright">&copy; 2017 Cyder</div>
+    </footer>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-100551872-1', 'auto');
+      ga('send', 'pageview');
+    </script>
   </body>
 </html>
