@@ -1,10 +1,10 @@
-.product .title {
-  background-image: url("../images/product.jpg");
+.products .title {
+  background-image: url("../images/products.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.product article {
+.products article {
   color: #ffffff;
   padding: 0 12% 30px;
   text-align: center;
@@ -12,36 +12,36 @@
   background-position: center;
 }
 
-.product article .cell {
+.products article .cell {
   display: table-cell;
   vertical-align: middle;
   height: 400px;
   width: 100vw;
 }
 
-.product article h2 {
+.products article h2 {
   margin: 30px 0 0;
   font-size: 2.2rem;
 }
 
-.product article.aktiva h2 img {
+.products article.aktiva h2 img {
   width: 120px;
 }
 
-.product article.famirror h2 img {
+.products article.famirror h2 img {
   width: 250px;
 }
 
-.product article p {
+.products article p {
   margin: 50px 0;
 }
 
-.product article p span {
+.products article p span {
   white-space: nowrap;
   display: inline-block;
 }
 
-.product article a {
+.products article a {
   color: #ffffff;
   border: 2px solid #ffffff;
   padding: 10px 20px;
@@ -50,11 +50,11 @@
   transition: background-color 0.3s ease 0s;
 }
 
-.product article a:hover {
+.products article a:hover {
   background-color: rgba(255,255,255,0.25);
 }
 
-.product article a::after {
+.products article a::after {
   content: '';
   display: inline-block;
   background-image: url(../images/link-icon.png);
@@ -67,68 +67,68 @@
   margin: 0 0 0 6px;
 }
 
-.product article .coming-soon {
+.products article .coming-soon {
   font-size: 1.4rem;
 }
 
-.product article.aktiva-v2 {
+.products article.aktiva-v2 {
   background-image: url(../images/aktiva-v2-gray.png);
 }
 
-.product article.aktiva {
+.products article.aktiva {
   background-image: url(../images/aktiva-gray.jpg);
 }
 
-.product article.famirror {
+.products article.famirror {
   background-image: url(../images/famirror-back.jpg);
 }
 
 @media only screen and (min-width: 480px) {
-.product article h2 {
+.products article h2 {
   font-size: 2.5rem;
 }
 
-.product article.aktiva h2 img {
+.products article.aktiva h2 img {
   width: 140px;
 }
 
-.product article.famirror h2 img {
+.products article.famirror h2 img {
   width: 300px;
 }
 
-.product article .cell {
+.products article .cell {
   height: 450px;
 }
 }
 
 @media only screen and (min-width: 768px) {
-.product article h2 {
+.products article h2 {
   font-size: 3rem;
 }
 
-.product article.aktiva h2 img {
+.products article.aktiva h2 img {
   width: 160px;
 }
 
-.product article.famirror h2 img {
+.products article.famirror h2 img {
   width: 350px;
 }
 }
 
 @media only screen and (min-width: 1024px) {
-.product article h2 {
+.products article h2 {
   font-size: 3.5rem;
 }
 
-.product article .cell {
+.products article .cell {
   height: 500px;
 }
 
-.product article.aktiva h2 img {
+.products article.aktiva h2 img {
   width: 180px;
 }
 
-.product article.famirror h2 img {
+.products article.famirror h2 img {
   width: 400px;
 }
 }
