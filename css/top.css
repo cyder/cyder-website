@@ -55,6 +55,10 @@
  * トップ部分
  */
 
+ header.transparent{
+   background-color: transparent;
+ }
+
 .top {
   position: relative;
   height: 100vh;

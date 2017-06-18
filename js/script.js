@@ -10,4 +10,15 @@ $(function() {
   $('#scroll-down').on('click', function() {
     $('body,html').animate({ scrollTop: $('#main-content').offset().top - $('#main-header').outerHeight()}, 400);
   });
+
+  $(window).scroll(function(){
+      var obj_t_pos = $('#main-content').offset().top; //位置設定
+      var scr_count = $(window).scrollTop();  //スクロールした量
+      if(scr_count > obj_t_pos){
+        $('#main-header').removeClass();
+      }else{
+        $('#main-header').addClass('transparent');
+      }
+  });
+
 });
