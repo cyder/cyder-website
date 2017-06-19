@@ -227,6 +227,11 @@
   margin-bottom: -50px;
 }
 
+.news .title.pc, .products .title.pc, .contact.pc {
+  background-attachment: fixed;
+}
+
+
 .news article a {
   margin: 0 4%;
 }
