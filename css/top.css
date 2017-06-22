@@ -62,11 +62,14 @@
   background-image: url(../images/top.jpg);
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   text-align: center;
   color: #ffffff;
   display: table-cell;
   vertical-align: middle;
+}
+
+.top.pc {
+  background-attachment: fixed;
 }
 
 .top h1 {
@@ -223,6 +226,11 @@
 .news .title, .products .title {
   margin-bottom: -50px;
 }
+
+.news .title.pc, .products .title.pc, .contact.pc {
+  background-attachment: fixed;
+}
+
 
 .news article a {
   margin: 0 4%;
