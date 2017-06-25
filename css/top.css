@@ -55,18 +55,35 @@
  * トップ部分
  */
 
-header.transparent{
+header.transparent {
    background-color: transparent;
-   color:#ffffff !important;
+   color:#ffffff;
+}
+
+header.transparent h1 a {
+  display: block;
+  background: url(../images/logo-white.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+header.transparent h1 .title {
+  opacity: 0;
 }
 
 @media only screen and (min-width: 480px) {
-  header.transparent nav a {
-    color: #ffffff;
-  }
-  header.transparent header.open nav{
-    background-color: #ffffff !important;
-  }
+header.transparent nav a {
+  color: #ffffff;
+}
+header.transparent header.open nav {
+  background-color: #ffffff;
+}
+header.transparent nav a {
+  background: transparent;
+}
+header.transparent nav li img {
+  opacity: 1;
+}
 }
 
 header.transparent nav .menu-button-icon {

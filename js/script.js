@@ -1,7 +1,21 @@
 $(function() {
+  var changeHeaderTranspearent = function() {
+    if($('#nav').hasClass('open')) {
+      $('#main-header').removeClass('transparent');
+    } else {
+      var obj_t_pos = $('#main-content').offset().top - $('#main-header').outerHeight(); //位置設定
+      var scr_count = $(window).scrollTop();  //スクロールした量
+      if(scr_count > obj_t_pos) {
+        $('#main-header').removeClass('transparent');
+      } else {
+        $('#main-header').addClass('transparent');
+      }
+    }
+  };
+
   $('#menu-button').on('click', function() {
     $('#nav').toggleClass('open');
-    $('#main-header').toggleClass('transparent');
+    changeHeaderTranspearent();
   });
 
   $('#page-top').on('click', function() {
@@ -13,13 +27,6 @@ $(function() {
   });
 
   $(window).scroll(function(){
-    var obj_t_pos = $('#main-content').offset().top; //位置設定
-    var scr_count = $(window).scrollTop();  //スクロールした量
-    if(scr_count > obj_t_pos) {
-      $('#main-header').removeClass('transparent');
-    } else {
-      $('#main-header').addClass('transparent');
-    }
+    changeHeaderTranspearent();
   });
-
 });
