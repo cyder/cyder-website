@@ -55,9 +55,31 @@
  * トップ部分
  */
 
- header.transparent{
+header.transparent{
    background-color: transparent;
- }
+   color:#ffffff !important;
+}
+
+@media only screen and (min-width: 480px) {
+  header.transparent nav a {
+    color: #ffffff;
+  }
+  header.transparent header.open nav{
+    background-color: #ffffff !important;
+  }
+}
+
+header.transparent nav .menu-button-icon {
+  background: #ffffff;
+}
+
+header.transparent nav .menu-button-icon::before, header.transparent nav .menu-button-icon::after {
+  background: #ffffff;
+}
+
+header.transparent header.open nav .menu-button-icon {
+  background: transparent;
+}
 
 .top {
   position: relative;
