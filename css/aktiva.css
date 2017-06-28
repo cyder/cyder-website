@@ -150,7 +150,7 @@ section {
  * main-functions section
  */
 
-.main-functions .text {
+.main-functions {
   padding-bottom: 60px;
 }
 
@@ -296,6 +296,7 @@ html, body {
 
 .main-functions {
   position: relative;
+  padding-bottom: 0;
 }
 
 .main-functions .functions {
@@ -304,6 +305,7 @@ html, body {
   align-items: center;
   height: 100%;
   top: 0;
+  bottom: 0;
   left: 0;
   right: 0;
   max-width: 1200px;
