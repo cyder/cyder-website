@@ -5,7 +5,7 @@ $(function() {
     } else {
       var obj_t_pos = $('#main-content').offset().top - $('#main-header').outerHeight(); //位置設定
       var scr_count = $(window).scrollTop();  //スクロールした量
-      if(scr_count > obj_t_pos) {
+      if(scr_count >= obj_t_pos) {
         $('#main-header').removeClass('transparent');
       } else {
         $('#main-header').addClass('transparent');
@@ -26,7 +26,7 @@ $(function() {
     $('body,html').animate({ scrollTop: $('#main-content').offset().top - $('#main-header').outerHeight()}, 400);
   });
 
-  $(window).scroll(function(){
+  $(window).scroll(function() {
     changeHeaderTranspearent();
   });
 });

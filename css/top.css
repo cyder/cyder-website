@@ -57,7 +57,7 @@
 
 header.transparent {
    background-color: transparent;
-   color:#ffffff;
+   color: #ffffff;
 }
 
 header.transparent h1 a {
@@ -69,21 +69,6 @@ header.transparent h1 a {
 
 header.transparent h1 .title {
   opacity: 0;
-}
-
-@media only screen and (min-width: 480px) {
-header.transparent nav a {
-  color: #ffffff;
-}
-header.transparent header.open nav {
-  background-color: #ffffff;
-}
-header.transparent nav a {
-  background: transparent;
-}
-header.transparent nav li img {
-  opacity: 1;
-}
 }
 
 header.transparent nav .menu-button-icon {
@@ -192,7 +177,7 @@ header.transparent header.open nav .menu-button-icon {
   background-color: transparent;
   color: #303030;
   padding: 30px 0 15px;
-}
+}  
 
 .about .title h1 {
   display: inline;
@@ -328,6 +313,22 @@ header.transparent header.open nav .menu-button-icon {
 
 
 @media only screen and (min-width: 480px) {
+header.transparent nav a {
+  color: #ffffff;
+}
+
+header.transparent header.open nav {
+  background-color: #ffffff;
+}
+
+header.transparent nav a {
+  background: transparent;
+}
+
+header.transparent nav li img {
+  opacity: 1;
+}
+
 .top h1 {
   padding: 0 4%;
   font-size: 2.8rem;
