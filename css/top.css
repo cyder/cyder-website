@@ -83,6 +83,10 @@ header.transparent header.open nav .menu-button-icon {
   background: transparent;
 }
 
+header {
+  transition: background-color 0.1s;
+}
+
 .top {
   position: relative;
   height: 100vh;
