@@ -208,7 +208,7 @@ header nav a img {
 
 .content .arrow {
   height: 1rem;
-  padding: 0 1rem;
+  padding: 0 2.5%;
   background-image: url(../images/right_arrow.png);
   background-repeat: no-repeat;
   background-size: contain;
