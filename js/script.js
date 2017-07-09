@@ -13,6 +13,8 @@ $(function() {
     }
   };
 
+  changeHeaderTranspearent();
+
   $('#menu-button').on('click', function() {
     $('#nav').toggleClass('open');
     changeHeaderTranspearent();
