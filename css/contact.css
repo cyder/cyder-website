@@ -163,6 +163,10 @@
   padding: 7px 1%;
 }
 
+.contact textarea {
+  min-height: 200px;
+}
+
 .contact form div {
   margin: 0 0 25px 0;
 }
