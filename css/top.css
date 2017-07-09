@@ -55,6 +55,38 @@
  * トップ部分
  */
 
+header.transparent {
+   background-color: transparent;
+   color: #ffffff;
+}
+
+header.transparent h1 a {
+  display: block;
+  background: url(../images/logo-white.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+header.transparent h1 .title {
+  opacity: 0;
+}
+
+header.transparent nav .menu-button-icon {
+  background: #ffffff;
+}
+
+header.transparent nav .menu-button-icon::before, header.transparent nav .menu-button-icon::after {
+  background: #ffffff;
+}
+
+header.transparent header.open nav .menu-button-icon {
+  background: transparent;
+}
+
+header {
+  transition: background-color 0.1s;
+}
+
 .top {
   position: relative;
   height: 100vh;
@@ -293,6 +325,22 @@
 
 
 @media only screen and (min-width: 480px) {
+header.transparent nav a {
+  color: #ffffff;
+}
+
+header.transparent header.open nav {
+  background-color: #ffffff;
+}
+
+header.transparent nav a {
+  background: transparent;
+}
+
+header.transparent nav li img {
+  opacity: 1;
+}
+
 .top h1 {
   padding: 0 4%;
   font-size: 2.8rem;
