@@ -99,6 +99,10 @@ header nav .menu-button {
   padding-top: 60px;
 }
 
+.content .arrow {
+  padding: 0 16px;
+}
+
 .content .title .border {
   padding: 80px 0;
 }
