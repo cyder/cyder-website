@@ -203,10 +203,26 @@ header nav a img {
   padding: 5px;
   font-size: 0.6rem;
   line-height: 1rem;
+  font-weight: 700;
+}
+
+.content .arrow {
+  padding: 0 2.5%;
+  height: 0.6rem;
+  line-height: 1rem;
+  display: inline-block;
+  background-image: url(../images/right_arrow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .content .current-place a {
   color: #353535;
+}
+
+.content .current-place a:hover {
+  opacity: 0.5;
 }
 
 .content .current-place .current {

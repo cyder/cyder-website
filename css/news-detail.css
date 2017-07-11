@@ -28,7 +28,12 @@ article p {
 
 article a {
   color: #a3a3a3;
+  font-size: 0.9rem;
   line-height: 1.2rem;
+}
+
+article a:hover {
+  text-decoration: underline;
 }
 
 article a::after {
@@ -38,8 +43,8 @@ article a::after {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 80%;
-  height: 1.2rem;
-  width: 1.2rem;
+  height: 1.1rem;
+  width: 1.1rem;
   vertical-align: bottom;
   margin: 0 0 0 3px;
 }
