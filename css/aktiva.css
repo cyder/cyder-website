@@ -31,7 +31,9 @@ section {
 
 .cover .slanting-square {
   width: 80vw;
+  max-width: 800px;
   height: 80vw;
+  max-height: 800px;
   border: 2px solid #ffffff;
   position: absolute;
   top: 0;
@@ -52,6 +54,7 @@ section {
 
 .cover .title img {
   width: 30%;
+  max-width: 300px;
 }
 
 .cover .title p {
@@ -82,6 +85,10 @@ section {
   background-position: center;
 }
 
+.content .text {
+  padding: 0 5% 80px;
+}
+
 .content h2 {
   text-align: center;
   font-weight: normal;
@@ -107,7 +114,6 @@ section {
 
 .content p {
   margin: 0;
-  padding: 0 5% 80px;
   font-size: 0.9rem;
   line-height: 1.5rem;
 }
@@ -117,11 +123,15 @@ section {
  */
 
 .aktiva {
-  background-image: url(../images/aktiva.png);
+  background-image: url(../images/aktiva-semitransparent.png);
 }
 
 .aktiva h2 span::before {
   left: -100vw;
+}
+
+.aktiva .aktiva-image {
+  display: none;
 }
 
 /**
@@ -140,9 +150,9 @@ section {
  * main-functions section
  */
 
- .main-functions {
-   padding-bottom: 60px;
- }
+.main-functions {
+  padding-bottom: 60px;
+}
 
 .main-functions .function {
   text-align: center;
@@ -227,4 +237,131 @@ footer .copyright {
   font-size: 0.8rem;
   color: #a3a3a3;
   padding: 0 0 30px;
+}
+
+@media only screen and (min-width: 1024px) {
+html, body {
+  font-size: 20px;
+}
+
+.cover .title p {
+  font-size: 1rem;
+}
+
+.content {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content h2 {
+  font-size: 2.5rem;
+}
+
+.content p {
+  line-height: 2rem;
+}
+
+.aktiva {
+  background-image: none;
+  position: relative;
+}
+
+.aktiva .aktiva-image {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 40%;
+  height: 90vh;
+  margin: auto;
+  transform: translateX(-120%);
+}
+
+.aktiva h2, .concept h2 {
+  text-align: left;
+}
+
+.aktiva .text, .concept .text {
+  padding: 150px 10% 80px;
+  max-width: 650px;
+}
+
+.aktiva .text {
+  padding-left: 40%;
+}
+
+.concept .text {
+  padding-right: 40%;
+}
+
+.main-functions {
+  position: relative;
+  padding-bottom: 0;
+}
+
+.main-functions .functions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 1200px;
+  margin: auto;
+  position: absolute;
+}
+
+.main-functions .function {
+  width: 33.33%;
+}
+
+.main-functions .function p {
+  font-size: 0.8rem;
+}
+
+.main-functions .function h3 {
+  font-size: 1.2rem;
+  margin: 20px 0 15px;
+}
+
+.main-functions .function::after {
+  height: 300px;
+  width: 300px;
+}
+
+.movie {
+  position: relative;
+}
+
+.movie .player {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 70%;
+  max-width: 1024px;
+  margin: auto;
+  position: absolute;
+  z-index: 100;
+}
+
+.movie::before {
+  position: absolute;
+  content: '';
+  display: block;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto 0;
+  width: 100vw;
+  height: 2px;
+  background-color: #ffffff;
+  z-index: 10;
+}
 }

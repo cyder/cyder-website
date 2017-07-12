@@ -14,6 +14,7 @@ header nav a {
 .content .current-place {
   font-size: 0.8rem;
   line-height: 1.5rem;
+  padding: 5px 16px;
 }
 
 footer .page-top img {
@@ -93,6 +94,14 @@ header nav li img {
 
 header nav .menu-button {
   display: none;
+}
+
+.content {
+  padding-top: 60px;
+}
+
+.content .arrow {
+  padding: 0 16px;
 }
 
 .content .title .border {
