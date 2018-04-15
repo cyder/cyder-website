@@ -27,9 +27,11 @@ article p {
 }
 
 article a {
+  display: block;
   color: #a3a3a3;
   font-size: 0.9rem;
   line-height: 1.2rem;
+  margin: 10px 0;
 }
 
 article a:hover {
