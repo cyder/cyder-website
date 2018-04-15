@@ -27,11 +27,9 @@ article p {
 }
 
 article a {
-  display: block;
   color: #a3a3a3;
   font-size: 0.9rem;
   line-height: 1.2rem;
-  margin: 10px 0;
 }
 
 article a:hover {
@@ -49,6 +47,10 @@ article a::after {
   width: 1.1rem;
   vertical-align: bottom;
   margin: 0 0 0 3px;
+}
+
+article ul.links li {
+  margin: 10px 0;
 }
 
 article .youtube {
