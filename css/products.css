@@ -28,6 +28,7 @@
   width: 120px;
 }
 
+.products article.syncpod h2 img,
 .products article.famirror h2 img {
   width: 250px;
 }
@@ -71,8 +72,8 @@
   font-size: 1.4rem;
 }
 
-.products article.aktiva-v2 {
-  background-image: url(../images/aktiva-v2-gray.png);
+.products article.syncpod {
+  background-image: url(../images/syncpod-background.jpg);
 }
 
 .products article.aktiva {
@@ -92,6 +93,7 @@
   width: 140px;
 }
 
+.products article.syncpod h2 img,
 .products article.famirror h2 img {
   width: 300px;
 }
@@ -110,6 +112,7 @@
   width: 160px;
 }
 
+.products article.syncpod h2 img,
 .products article.famirror h2 img {
   width: 350px;
 }
@@ -128,6 +131,7 @@
   width: 180px;
 }
 
+.products article.syncpod h2 img,
 .products article.famirror h2 img {
   width: 400px;
 }
