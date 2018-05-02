@@ -49,6 +49,10 @@ article a::after {
   margin: 0 0 0 3px;
 }
 
+article ul.links li {
+  margin: 10px 0;
+}
+
 article .youtube {
   margin: 20px 0;
   position: relative;
