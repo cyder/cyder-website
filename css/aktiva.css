@@ -195,11 +195,53 @@ section {
 }
 
 /**
+ * achivement
+ */
+
+.achivement {
+  background-image: url(../images/achivement.jpg);
+}
+
+.achivement h2 {
+  padding: 32px 0;
+}
+
+.achivement h3 {
+  margin: 24px 0;
+}
+
+.achivement h3 span {
+  position: relative;
+}
+
+.achivement h3 span::before {
+  content: '';
+  margin: auto -10px;
+  width: 100vw;
+  height: 2px;
+  background-color: #ffffff;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -100vw;
+  bottom: 0;
+}
+
+.achivement ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.achivement li {
+  padding: 16px 0;
+  line-height: 1.5rem;
+}
+
+/**
  * movie
  */
 
 .movie {
-  background-image: url(../images/video.jpg);
   padding-bottom: 60px;
 }
 
