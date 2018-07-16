@@ -28,6 +28,7 @@
   width: 120px;
 }
 
+.products article.emoji-best h2 img,
 .products article.syncpod h2 img,
 .products article.famirror h2 img {
   width: 250px;
@@ -72,6 +73,10 @@
   font-size: 1.4rem;
 }
 
+.products article.emoji-best {
+  background-image: url(../images/emoji-best-background.jpg);
+}
+
 .products article.syncpod {
   background-image: url(../images/syncpod-background.jpg);
 }
@@ -93,6 +98,7 @@
   width: 140px;
 }
 
+.products article.emoji-best h2 img,
 .products article.syncpod h2 img,
 .products article.famirror h2 img {
   width: 300px;
@@ -112,6 +118,7 @@
   width: 160px;
 }
 
+.products article.emoji-best h2 img,
 .products article.syncpod h2 img,
 .products article.famirror h2 img {
   width: 350px;
@@ -131,6 +138,7 @@
   width: 180px;
 }
 
+.products article.emoji-best h2 img,
 .products article.syncpod h2 img,
 .products article.famirror h2 img {
   width: 400px;
