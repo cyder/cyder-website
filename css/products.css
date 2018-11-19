@@ -28,6 +28,7 @@
   width: 120px;
 }
 
+.products article.nigiru-kun h2 img,
 .products article.emoji-best h2 img,
 .products article.syncpod h2 img,
 .products article.famirror h2 img {
@@ -73,6 +74,10 @@
   font-size: 1.4rem;
 }
 
+.products article.nigiru-kun {
+  background-image: url(../images/hand-grip-background.jpg);
+}
+
 .products article.emoji-best {
   background-image: url(../images/emoji-best-background.jpg);
 }
@@ -98,6 +103,7 @@
   width: 140px;
 }
 
+.products article.nigiru-kun h2 img,
 .products article.emoji-best h2 img,
 .products article.syncpod h2 img,
 .products article.famirror h2 img {
@@ -118,6 +124,7 @@
   width: 160px;
 }
 
+.products article.nigiru-kun h2 img,
 .products article.emoji-best h2 img,
 .products article.syncpod h2 img,
 .products article.famirror h2 img {
@@ -138,6 +145,7 @@
   width: 180px;
 }
 
+.products article.nigiru-kun h2 img,
 .products article.emoji-best h2 img,
 .products article.syncpod h2 img,
 .products article.famirror h2 img {
