@@ -1,0 +1,25 @@
+version: 2
+jobs:
+  deploy:
+    docker:
+      - image: circleci/python:2.7-jessie
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ~/repo
+      - run:
+          name: Install awscli
+          command: sudo pip install awscli
+      - run:
+          name: Deploy to S3
+          command: aws s3 sync ~/repo/public s3://${S3_BUCKET} --delete
+
+workflows:
+  version: 2
+  deploy-to-s3:
+    jobs:
+      - deploy:
+          filters:
+            branches:
+              only: master
