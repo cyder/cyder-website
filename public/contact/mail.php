@@ -9,9 +9,9 @@
   mb_language("Japanese");
   mb_internal_encoding("UTF-8");
 
-  $to      = 'contact@cyder.tech';
+  $to      = 'contact@cyder.jp';
   $subject = 'お問合わせがありました。';
-  $headers = 'From: contact@cyder.tech';
+  $headers = 'From: contact@cyder.jp';
 
   $result = mb_send_mail($to, $subject, $message, $headers);
 
