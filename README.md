@@ -1,5 +1,5 @@
 # cyderwebsite
-学生グループ[Cyder](cyder.tech)の公式サイト
+学生グループ[Cyder](cyder.jp)の公式サイト
 
 ## 必要環境
 * Apache/2.2.31
