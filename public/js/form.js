@@ -1,22 +1,23 @@
 $(function() {
   $('form').submit(function() {
-    var data = $('form').serialize();
-    var url = './mail.php'
+    let data = {};
+    $($('form').serializeArray()).each(function(i, v) {
+      data[v.name] = v.value;
+    });
+
+    const url = 'https://wb35uhnz4f.execute-api.us-east-1.amazonaws.com/prod/contact'
     $.ajax({
       url: url,
       type: 'post',
       scriptCharset: 'utf-8',
-      data: data,
-      success: function(data) {
-        if(data === 'true')
-          success();
-        else
-          error();
+      data: JSON.stringify(data),
+      success: function(_) {
+        success();
       },
-      error: function(XMLHttpRequest, textStatus, errorThrown) {
+      error: function(_, _, _) {
         error();
       },
-    })
+    });
 
     $('#pop-up').on('click', function() {
       $(this).removeClass('show');
